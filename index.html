@@ -1,88 +1,449 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio - Maxime | BTS SIO SLAM</title>
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: Arial, Helvetica, sans-serif; line-height: 1.6; color: #222; }
-    header { background: #1a1a2e; color: white; padding: 3rem 1.5rem; text-align: center; }
-    header h1 { font-size: 2rem; margin-bottom: 0.5rem; }
-    nav { background: #16213e; text-align: center; padding: 1rem; }
-    nav a { color: white; margin: 0 1rem; text-decoration: none; font-weight: bold; }
-    nav a:hover { text-decoration: underline; }
-    section { max-width: 900px; margin: 0 auto; padding: 3rem 1.5rem; }
-    section h2 { border-bottom: 3px solid #1a1a2e; padding-bottom: 0.5rem; margin-bottom: 1.5rem; }
-    .skills { display: flex; flex-wrap: wrap; gap: 0.5rem; }
-    .skills span { background: #eee; padding: 0.4rem 0.8rem; border-radius: 20px; font-size: 0.9rem; }
-    .project { background: #f7f7f7; border-radius: 8px; padding: 1.5rem; margin-bottom: 1.5rem; }
-    .project h3 { margin-bottom: 0.5rem; }
-    .project .tech { font-size: 0.85rem; color: #555; margin-bottom: 0.8rem; font-style: italic; }
-    footer { text-align: center; padding: 2rem; background: #1a1a2e; color: white; }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maxime Leroy — Portfolio BTS SIO SLAM</title>
+<meta name="description" content="Portfolio de Maxime Leroy, étudiant en BTS SIO option SLAM.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script>
+  (function () {
+    var saved = localStorage.getItem("theme");
+    var theme = saved || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+    document.documentElement.setAttribute("data-theme", theme);
+  })();
+</script>
+<style>
+  :root {
+    --bg: #faf9f7;
+    --bg-alt: #ffffff;
+    --text: #1c1c1a;
+    --text-muted: #635f58;
+    --accent: #0f6e63;
+    --accent-soft: #e2efec;
+    --border: #e6e2db;
+    color-scheme: light;
+  }
+
+  [data-theme="dark"] {
+    --bg: #141412;
+    --bg-alt: #1c1c1a;
+    --text: #f2f0ea;
+    --text-muted: #a6a196;
+    --accent: #35c9b6;
+    --accent-soft: #1e2e2b;
+    --border: #2c2a26;
+    color-scheme: dark;
+  }
+
+  * { box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    margin: 0;
+    font-family: "Inter", system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    transition: background 0.2s ease, color 0.2s ease;
+  }
+
+  a { color: inherit; }
+
+  section { scroll-margin-top: 84px; }
+
+  .wrap { max-width: 920px; margin: 0 auto; padding: 0 1.5rem; }
+
+  /* Header */
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background: var(--bg);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    max-width: 920px;
+    margin: 0 auto;
+  }
+
+  .logo {
+    font-weight: 700;
+    font-size: 1.05rem;
+    text-decoration: none;
+    letter-spacing: -0.01em;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 1.75rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--text-muted);
+  }
+
+  .nav-links a:hover { color: var(--text); }
+
+  .nav-right { display: flex; align-items: center; gap: 1rem; }
+
+  .theme-toggle {
+    border: 1px solid var(--border);
+    background: var(--bg-alt);
+    color: var(--text);
+    width: 34px;
+    height: 34px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .theme-toggle svg { width: 16px; height: 16px; }
+  .theme-toggle .icon-moon { display: none; }
+  [data-theme="dark"] .theme-toggle .icon-sun { display: none; }
+  [data-theme="dark"] .theme-toggle .icon-moon { display: block; }
+
+  .menu-btn {
+    display: none;
+    border: 1px solid var(--border);
+    background: var(--bg-alt);
+    width: 34px;
+    height: 34px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  @media (max-width: 700px) {
+    .nav-links {
+      position: absolute;
+      top: 60px;
+      left: 0;
+      right: 0;
+      flex-direction: column;
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+      padding: 1rem 1.5rem;
+      gap: 1rem;
+      display: none;
+    }
+    .nav-links.open { display: flex; }
+    .menu-btn { display: block; }
+  }
+
+  /* Hero */
+  .hero { padding: 5rem 0 4rem; }
+  .hero .eyebrow {
+    color: var(--accent);
+    font-weight: 600;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-bottom: 0.75rem;
+  }
+  .hero h1 {
+    font-size: clamp(2rem, 5vw, 2.8rem);
+    margin: 0 0 0.5rem;
+    letter-spacing: -0.02em;
+  }
+  .hero p.lead {
+    max-width: 560px;
+    color: var(--text-muted);
+    font-size: 1.05rem;
+  }
+  .hero .cta { display: flex; gap: 0.75rem; margin-top: 1.75rem; flex-wrap: wrap; }
+  .btn {
+    display: inline-block;
+    padding: 0.7rem 1.3rem;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-decoration: none;
+    border: 1px solid transparent;
+  }
+  .btn-primary { background: var(--accent); color: #fff; }
+  .btn-secondary { background: transparent; border-color: var(--border); color: var(--text); }
+
+  /* Section titles */
+  .section-head { margin-bottom: 1.75rem; }
+  .section-head .tag {
+    color: var(--accent);
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+  .section-head h2 { margin: 0.3rem 0 0; font-size: 1.6rem; letter-spacing: -0.01em; }
+
+  section.block { padding: 3.5rem 0; border-top: 1px solid var(--border); }
+
+  /* Compétences */
+  .skills { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+  .skills span {
+    background: var(--accent-soft);
+    color: var(--accent);
+    padding: 0.4rem 0.85rem;
+    border-radius: 100px;
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+
+  /* Projets */
+  .filters { display: flex; gap: 0.6rem; margin-bottom: 1.75rem; }
+  .filter-btn {
+    border: 1px solid var(--border);
+    background: var(--bg-alt);
+    color: var(--text-muted);
+    padding: 0.45rem 1rem;
+    border-radius: 100px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .filter-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+
+  .project-grid { display: grid; gap: 1.1rem; }
+  .project {
+    background: var(--bg-alt);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.5rem;
+  }
+  .project h3 { margin: 0 0 0.4rem; font-size: 1.1rem; }
+  .project .meta {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-bottom: 0.6rem;
+  }
+  .project p { margin: 0 0 0.8rem; color: var(--text-muted); font-size: 0.95rem; }
+  .project .stack { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+  .project .stack span {
+    font-size: 0.75rem;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    padding: 0.2rem 0.6rem;
+    border-radius: 100px;
+    color: var(--text-muted);
+  }
+  .empty-state {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    font-style: italic;
+    padding: 1rem 0;
+  }
+
+  /* Veille */
+  .veille-entry { display: flex; gap: 1.25rem; padding: 1rem 0; border-bottom: 1px solid var(--border); }
+  .veille-entry:last-child { border-bottom: none; }
+  .veille-date {
+    flex-shrink: 0;
+    width: 90px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--accent);
+    padding-top: 0.15rem;
+  }
+  .veille-entry h4 { margin: 0 0 0.3rem; font-size: 1rem; }
+  .veille-entry p { margin: 0; color: var(--text-muted); font-size: 0.92rem; }
+
+  /* Contact */
+  .contact-links { display: flex; flex-direction: column; gap: 0.8rem; }
+  .contact-links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    width: fit-content;
+  }
+  .contact-links a:hover { color: var(--accent); }
+
+  footer {
+    border-top: 1px solid var(--border);
+    padding: 2rem 0;
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 0.85rem;
+  }
+</style>
 </head>
 <body>
 
-  <header>
-    <h1>Maxime [Ton Nom]</h1>
-    <p>Étudiant BTS SIO — option SLAM</p>
-  </header>
-
-  <nav>
-    <a href="#apropos">À propos</a>
-    <a href="#competences">Compétences</a>
-    <a href="#projets">Projets</a>
-    <a href="#veille">Veille techno</a>
-    <a href="#contact">Contact</a>
+<header>
+  <nav class="nav">
+    <a href="#" class="logo">Maxime Leroy</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#competences">Compétences</a></li>
+      <li><a href="#projets">Projets</a></li>
+      <li><a href="#veille">Veille</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="theme-toggle" id="themeToggle" aria-label="Changer de thème">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <button class="menu-btn" id="menuBtn" aria-label="Ouvrir le menu">☰</button>
+    </div>
   </nav>
+</header>
 
-  <section id="apropos">
-    <h2>À propos</h2>
-    <p>Étudiant en BTS Services Informatiques aux Organisations, option Solutions Logicielles et Applications Métiers (SLAM). Présente ici ton parcours, ton stage/alternance, et ce qui t'intéresse en développement.</p>
+<main class="wrap">
+
+  <section class="hero">
+    <p class="eyebrow">BTS SIO — Option SLAM</p>
+    <h1>Salut, je suis Maxime.</h1>
+    <p class="lead">Étudiant développeur en BTS SIO SLAM. Je conçois et je développe des applications, du cahier des charges jusqu'au code — actuellement sur une application de gestion de planning en Symfony.</p>
+    <div class="cta">
+      <a href="#projets" class="btn btn-primary">Voir mes projets</a>
+      <a href="#contact" class="btn btn-secondary">Me contacter</a>
+    </div>
   </section>
 
-  <section id="competences">
-    <h2>Compétences</h2>
+  <section class="block" id="competences">
+    <div class="section-head">
+      <p class="tag">Stack</p>
+      <h2>Compétences</h2>
+    </div>
     <div class="skills">
-      <span>Symfony</span>
-      <span>PHP</span>
-      <span>HTML/CSS</span>
+      <span>HTML</span>
+      <span>CSS</span>
       <span>JavaScript</span>
+      <span>PHP</span>
+      <span>Symfony</span>
       <span>SQL</span>
       <span>Git</span>
       <span>Trello</span>
     </div>
   </section>
 
-  <section id="projets">
-    <h2>Projets</h2>
-
-    <div class="project">
-      <h3>Pla'Net — Gestionnaire de planning scolaire</h3>
-      <p class="tech">Symfony · PHP · MySQL</p>
-      <p>Application web de gestion de planning développée en Symfony. Rédaction du cahier des charges (3 campus, plusieurs spécialités, alternants et initiaux), suivi de projet via Trello. Objectifs : centraliser les plannings, limiter les erreurs de saisie et les rendre réversibles, gérer les alternances et le tronc commun.</p>
-      <p><strong>Mon rôle :</strong> [conception du cahier des charges, développement du back-end, etc. — à compléter]</p>
+  <section class="block" id="projets">
+    <div class="section-head">
+      <p class="tag">Réalisations</p>
+      <h2>Projets</h2>
     </div>
 
-    <!-- Ajoute d'autres projets ici avec le même modèle de <div class="project"> -->
+    <div class="filters">
+      <button class="filter-btn active" data-filter="tous">Tous</button>
+      <button class="filter-btn" data-filter="ecole">École</button>
+      <button class="filter-btn" data-filter="alternance">Alternance</button>
+    </div>
 
+    <div class="project-grid" id="projectGrid">
+      <article class="project" data-category="ecole">
+        <p class="meta">Projet école</p>
+        <h3>Pla'Net — Gestion de planning scolaire</h3>
+        <p>Application de gestion de planning développée en Symfony pour un établissement multi-campus. J'ai rédigé le cahier des charges (3 campus, plusieurs spécialités, groupes en alternance et en initial) et je développe la partie applicative, avec un suivi des tâches sur Trello.</p>
+        <div class="stack"><span>Symfony</span><span>PHP</span><span>MySQL</span></div>
+      </article>
+
+      <!--
+        Pour ajouter un projet, duplique ce bloc et modifie data-category en "ecole" ou "alternance" :
+
+        <article class="project" data-category="alternance">
+          <p class="meta">Projet entreprise</p>
+          <h3>Nom du projet</h3>
+          <p>Description courte : contexte, ton rôle, ce que ça a donné.</p>
+          <div class="stack"><span>Tech 1</span><span>Tech 2</span></div>
+        </article>
+      -->
+    </div>
+    <p class="empty-state" id="emptyState" style="display:none;">Projets en cours d'ajout dans cette catégorie.</p>
   </section>
 
-  <section id="veille">
-    <h2>Veille technologique</h2>
-    <p>[Liste tes sources et sujets suivis : blogs, newsletters, sujets techniques qui t'intéressent]</p>
+  <section class="block" id="veille">
+    <div class="section-head">
+      <p class="tag">Jour après jour</p>
+      <h2>Veille technologique</h2>
+    </div>
+
+    <div class="veille-list">
+      <div class="veille-entry">
+        <div class="veille-date">24/09</div>
+        <div>
+          <h4>Article à compléter</h4>
+          <p>Remplace ce texte par une actu, un article ou une vidéo que tu as suivie ce jour-là, avec ce que t'en retiens en 1-2 phrases.</p>
+        </div>
+      </div>
+    </div>
+    <!--
+      Pour ajouter une entrée de veille, duplique un bloc .veille-entry au-dessus.
+    -->
   </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email : [ton-email]</p>
-    <p>LinkedIn / GitHub : [tes liens]</p>
+  <section class="block" id="contact">
+    <div class="section-head">
+      <p class="tag">Contact</p>
+      <h2>Me contacter</h2>
+    </div>
+    <div class="contact-links">
+      <a href="mailto:maxime.leroy@mediaschool.me">maxime.leroy@mediaschool.me</a>
+      <a href="https://github.com/maxime7606" target="_blank" rel="noopener">github.com/maxime7606</a>
+    </div>
   </section>
 
-  <footer>
-    <p>&copy; 2026 Maxime — Portfolio BTS SIO SLAM</p>
-  </footer>
+</main>
+
+<footer>
+  © 2026 Maxime Leroy — BTS SIO SLAM
+</footer>
+
+<script>
+  var toggle = document.getElementById("themeToggle");
+  toggle.addEventListener("click", function () {
+    var current = document.documentElement.getAttribute("data-theme");
+    var next = current === "dark" ? "light" : "dark";
+    document.documentElement.setAttribute("data-theme", next);
+    localStorage.setItem("theme", next);
+  });
+
+  var menuBtn = document.getElementById("menuBtn");
+  var navLinks = document.getElementById("navLinks");
+  menuBtn.addEventListener("click", function () {
+    navLinks.classList.toggle("open");
+  });
+  navLinks.querySelectorAll("a").forEach(function (link) {
+    link.addEventListener("click", function () { navLinks.classList.remove("open"); });
+  });
+
+  var filterBtns = document.querySelectorAll(".filter-btn");
+  var projects = document.querySelectorAll(".project");
+  var emptyState = document.getElementById("emptyState");
+
+  filterBtns.forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      filterBtns.forEach(function (b) { b.classList.remove("active"); });
+      btn.classList.add("active");
+      var filter = btn.dataset.filter;
+      var visible = 0;
+      projects.forEach(function (p) {
+        var show = filter === "tous" || p.dataset.category === filter;
+        p.style.display = show ? "block" : "none";
+        if (show) visible++;
+      });
+      emptyState.style.display = visible === 0 ? "block" : "none";
+    });
+  });
+</script>
 
 </body>
 </html>
