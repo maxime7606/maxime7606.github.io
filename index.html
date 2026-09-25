@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Maxime | BTS SIO SLAM</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, Helvetica, sans-serif; line-height: 1.6; color: #222; }
+    header { background: #1a1a2e; color: white; padding: 3rem 1.5rem; text-align: center; }
+    header h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+    nav { background: #16213e; text-align: center; padding: 1rem; }
+    nav a { color: white; margin: 0 1rem; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    section { max-width: 900px; margin: 0 auto; padding: 3rem 1.5rem; }
+    section h2 { border-bottom: 3px solid #1a1a2e; padding-bottom: 0.5rem; margin-bottom: 1.5rem; }
+    .skills { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .skills span { background: #eee; padding: 0.4rem 0.8rem; border-radius: 20px; font-size: 0.9rem; }
+    .project { background: #f7f7f7; border-radius: 8px; padding: 1.5rem; margin-bottom: 1.5rem; }
+    .project h3 { margin-bottom: 0.5rem; }
+    .project .tech { font-size: 0.85rem; color: #555; margin-bottom: 0.8rem; font-style: italic; }
+    footer { text-align: center; padding: 2rem; background: #1a1a2e; color: white; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Maxime [Ton Nom]</h1>
+    <p>Étudiant BTS SIO — option SLAM</p>
+  </header>
+
+  <nav>
+    <a href="#apropos">À propos</a>
+    <a href="#competences">Compétences</a>
+    <a href="#projets">Projets</a>
+    <a href="#veille">Veille techno</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="apropos">
+    <h2>À propos</h2>
+    <p>Étudiant en BTS Services Informatiques aux Organisations, option Solutions Logicielles et Applications Métiers (SLAM). Présente ici ton parcours, ton stage/alternance, et ce qui t'intéresse en développement.</p>
+  </section>
+
+  <section id="competences">
+    <h2>Compétences</h2>
+    <div class="skills">
+      <span>Symfony</span>
+      <span>PHP</span>
+      <span>HTML/CSS</span>
+      <span>JavaScript</span>
+      <span>SQL</span>
+      <span>Git</span>
+      <span>Trello</span>
+    </div>
+  </section>
+
+  <section id="projets">
+    <h2>Projets</h2>
+
+    <div class="project">
+      <h3>Pla'Net — Gestionnaire de planning scolaire</h3>
+      <p class="tech">Symfony · PHP · MySQL</p>
+      <p>Application web de gestion de planning développée en Symfony. Rédaction du cahier des charges (3 campus, plusieurs spécialités, alternants et initiaux), suivi de projet via Trello. Objectifs : centraliser les plannings, limiter les erreurs de saisie et les rendre réversibles, gérer les alternances et le tronc commun.</p>
+      <p><strong>Mon rôle :</strong> [conception du cahier des charges, développement du back-end, etc. — à compléter]</p>
+    </div>
+
+    <!-- Ajoute d'autres projets ici avec le même modèle de <div class="project"> -->
+
+  </section>
+
+  <section id="veille">
+    <h2>Veille technologique</h2>
+    <p>[Liste tes sources et sujets suivis : blogs, newsletters, sujets techniques qui t'intéressent]</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email : [ton-email]</p>
+    <p>LinkedIn / GitHub : [tes liens]</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Maxime — Portfolio BTS SIO SLAM</p>
+  </footer>
+
+</body>
+</html>
