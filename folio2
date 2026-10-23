@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maxime Leroy — Portfolio BTS SIO SLAM</title>
+<meta name="description" content="Portfolio de Maxime Leroy, étudiant en BTS SIO option SLAM.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<script>
+  (function () {
+    var saved = localStorage.getItem("theme");
+    document.documentElement.setAttribute("data-theme", saved || "dark");
+  })();
+</script>
+<style>
+  :root {
+    --bg: #f3f5f8;
+    --panel: #ffffff;
+    --bar: #e4e9f0;
+    --text: #17212f;
+    --muted: #55637a;
+    --accent: #0a6c8a;
+    --green: #1a7f37;
+    --amber: #9a5b00;
+    --border: #d3dae5;
+    --grid: rgba(10, 108, 138, 0.06);
+    color-scheme: light;
+  }
+  [data-theme="dark"] {
+    --bg: #0a111d;
+    --panel: #101a2a;
+    --bar: #16233a;
+    --text: #d8e3f2;
+    --muted: #8a9bb5;
+    --accent: #5ad1e6;
+    --green: #7ee787;
+    --amber: #f2b84b;
+    --border: #213250;
+    --grid: rgba(90, 209, 230, 0.05);
+    color-scheme: dark;
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    font-family: "Inter", system-ui, sans-serif;
+    background-color: var(--bg);
+    background-image:
+      linear-gradient(var(--grid) 1px, transparent 1px),
+      linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+    background-size: 32px 32px;
+    color: var(--text);
+    line-height: 1.6;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+  a { color: inherit; }
+  section { scroll-margin-top: 84px; }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+  .mono { font-family: "JetBrains Mono", ui-monospace, Consolas, monospace; }
+  .wrap { max-width: 920px; margin: 0 auto; padding: 0 1.5rem; }
+
+  /* Header */
+  header {
+    position: sticky; top: 0; z-index: 20;
+    background: var(--bg);
+    border-bottom: 1px solid var(--border);
+  }
+  .nav {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0.9rem 1.5rem; max-width: 920px; margin: 0 auto;
+    font-family: "JetBrains Mono", ui-monospace, Consolas, monospace;
+  }
+  .logo { font-weight: 700; font-size: 0.92rem; text-decoration: none; }
+  .logo .u { color: var(--green); }
+  .logo .h { color: var(--accent); }
+  .nav-links { display: flex; gap: 1.5rem; list-style: none; margin: 0; padding: 0; }
+  .nav-links a { text-decoration: none; font-size: 0.85rem; color: var(--muted); }
+  .nav-links a:hover { color: var(--accent); }
+  .nav-right { display: flex; align-items: center; gap: 0.75rem; }
+  .theme-toggle, .menu-btn {
+    border: 1px solid var(--border); background: var(--panel); color: var(--text);
+    width: 34px; height: 34px; border-radius: 6px; cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .theme-toggle svg { width: 16px; height: 16px; }
+  .theme-toggle .icon-moon { display: none; }
+  [data-theme="dark"] .theme-toggle .icon-sun { display: none; }
+  [data-theme="dark"] .theme-toggle .icon-moon { display: block; }
+  .menu-btn { display: none; }
+
+  @media (max-width: 700px) {
+    .nav-links {
+      position: absolute; top: 100%; left: 0; right: 0;
+      flex-direction: column; gap: 1rem; padding: 1rem 1.5rem;
+      background: var(--bg); border-bottom: 1px solid var(--border); display: none;
+    }
+    .nav-links.open { display: flex; }
+    .menu-btn { display: flex; }
+  }
+
+  /* Terminal window */
+  .win {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .win-bar {
+    display: flex; align-items: center; gap: 0.5rem;
+    padding: 0.55rem 0.9rem;
+    background: var(--bar);
+    border-bottom: 1px solid var(--border);
+    font-family: "JetBrains Mono", ui-monospace, Consolas, monospace;
+    font-size: 0.75rem; color: var(--muted);
+  }
+  .dots { display: flex; gap: 6px; }
+  .dots i { width: 10px; height: 10px; border-radius: 50%; background: var(--border); display: block; }
+  .dots i:nth-child(1) { background: #ff5f57; }
+  .dots i:nth-child(2) { background: #febc2e; }
+  .dots i:nth-child(3) { background: #28c840; }
+  .win-body { padding: 1.4rem 1.5rem; }
+
+  /* Hero */
+  .hero { padding: 3.5rem 0 3rem; }
+  .term {
+    font-family: "JetBrains Mono", ui-monospace, Consolas, monospace;
+    font-size: 0.95rem; line-height: 1.75;
+  }
+  .term .line { margin: 0; }
+  .term .ps { color: var(--green); }
+  .term .path { color: var(--accent); }
+  .term .out { color: var(--text); margin: 0 0 1rem; }
+  .term .out strong { font-size: clamp(1.4rem, 4vw, 1.9rem); font-weight: 700; display: block; line-height: 1.3; }
+  .term .out .dim { color: var(--muted); }
+  .term .out .hl { color: var(--amber); }
+  .term .out a { color: var(--accent); text-decoration: none; margin-right: 1rem; }
+  .term .out a:hover { text-decoration: underline; }
+  .cursor {
+    display: inline-block; width: 0.6em; height: 1.1em; margin-left: 2px;
+    background: var(--accent); vertical-align: text-bottom;
+    animation: blink 1.1s steps(1) infinite;
+  }
+  @keyframes blink { 50% { opacity: 0; } }
+  .hidden-out { visibility: hidden; }
+
+  /* Section titles */
+  section.block { padding: 3rem 0; }
+  .section-head h2 {
+    margin: 0 0 1.4rem; font-size: 1.35rem; font-weight: 700;
+    font-family: "JetBrains Mono", ui-monospace, Consolas, monospace;
+  }
+  .section-head .p { color: var(--green); }
+
+  /* Compétences */
+  .code {
+    margin: 0; overflow-x: auto;
+    font-family: "JetBrains Mono", ui-monospace, Consolas, monospace;
+    font-size: 0.9rem; line-height: 1.8; color: var(--muted);
+  }
+  .code .k { color: var(--accent); }
+  .code .s { color: var(--amber); }
+
+  /* Projets */
+  .filters {
+    display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.4rem;
+    font-family: "JetBrains Mono", ui-monospace, Consolas, monospace;
+  }
+  .filter-btn {
+    border: 1px solid var(--border); background: var(--panel); color: var(--muted);
+    padding: 0.4rem 0.9rem; border-radius: 6px;
+    font: inherit; font-size: 0.82rem; cursor: pointer;
+  }
+  .filter-btn:hover { color: var(--text); }
+  .filter-btn.active { border-color: var(--accent); color: var(--accent); }
+
+  .project-grid { display: grid; gap: 1.1rem; }
+  .project .win-body { padding: 1.3rem 1.5rem; }
+  .project h3 { margin: 0 0 0.5rem; font-size: 1.1rem; }
+  .project p { margin: 0 0 0.9rem; color: var(--muted); font-size: 0.95rem; }
+  .project .stack {
+    display: flex; flex-wrap: wrap; gap: 0.4rem;
+    font-family: "JetBrains Mono", ui-monospace, Consolas, monospace;
+  }
+  .project .stack span {
+    font-size: 0.76rem; color: var(--accent);
+    border: 1px solid var(--border); padding: 0.15rem 0.55rem; border-radius: 4px;
+  }
+  .empty-state {
+    color: var(--muted); font-size: 0.88rem;
+    font-family: "JetBrains Mono", ui-monospace, Consolas, monospace;
+  }
+
+  /* Veille */
+  .veille-entry {
+    display: flex; gap: 1.1rem; padding: 0.9rem 0;
+    border-bottom: 1px dashed var(--border);
+  }
+  .veille-entry:last-child { border-bottom: none; }
+  .veille-date {
+    flex-shrink: 0; width: 70px; padding-top: 0.15rem;
+    font-family: "JetBrains Mono", ui-monospace, Consolas, monospace;
+    font-size: 0.82rem; color: var(--green);
+  }
+  .veille-entry h4 { margin: 0 0 0.25rem; font-size: 1rem; }
+  .veille-entry p { margin: 0; color: var(--muted); font-size: 0.92rem; }
+
+  /* Contact */
+  .contact-links {
+    display: flex; flex-direction: column; gap: 0.6rem;
+    font-family: "JetBrains Mono", ui-monospace, Consolas, monospace; font-size: 0.92rem;
+  }
+  .contact-links div { color: var(--muted); }
+  .contact-links .key { color: var(--green); margin-right: 0.6rem; }
+  .contact-links a { color: var(--accent); text-decoration: none; }
+  .contact-links a:hover { text-decoration: underline; }
+
+  footer {
+    border-top: 1px solid var(--border); padding: 2rem 0; text-align: center;
+    color: var(--muted); font-size: 0.82rem;
+    font-family: "JetBrains Mono", ui-monospace, Consolas, monospace;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    .cursor { animation: none; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <nav class="nav">
+    <a href="#" class="logo"><span class="u">maxime</span>@<span class="h">portfolio</span>:~$</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#competences">./competences</a></li>
+      <li><a href="#projets">./projets</a></li>
+      <li><a href="#veille">./veille</a></li>
+      <li><a href="#contact">./contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="theme-toggle" id="themeToggle" aria-label="Changer de thème">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <button class="menu-btn" id="menuBtn" aria-label="Ouvrir le menu">☰</button>
+    </div>
+  </nav>
+</header>
+
+<main class="wrap">
+
+  <section class="hero">
+    <div class="win">
+      <div class="win-bar"><span class="dots"><i></i><i></i><i></i></span><span>bash — maxime@portfolio</span></div>
+      <div class="win-body term" id="term">
+        <p class="line"><span class="ps">maxime@portfolio</span>:<span class="path">~</span>$ <span class="cmd">whoami</span></p>
+        <p class="out"><strong>Maxime Leroy</strong>Étudiant développeur en BTS SIO, option SLAM.</p>
+        <p class="line"><span class="ps">maxime@portfolio</span>:<span class="path">~</span>$ <span class="cmd">cat status.txt</span></p>
+        <p class="out">Je conçois et je développe des applications, du cahier des charges jusqu’au code.<br><span class="dim">En cours :</span> <span class="hl">Pla’Net</span>, une application de gestion de planning en Symfony.</p>
+        <p class="line"><span class="ps">maxime@portfolio</span>:<span class="path">~</span>$ <span class="cmd">ls sections/</span></p>
+        <p class="out"><a href="#projets">projets/</a><a href="#competences">competences/</a><a href="#veille">veille/</a><a href="#contact">contact/</a></p>
+        <p class="line"><span class="ps">maxime@portfolio</span>:<span class="path">~</span>$ <span class="cursor" aria-hidden="true"></span></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="competences">
+    <div class="section-head"><h2><span class="p" aria-hidden="true">~/</span>Compétences</h2></div>
+    <div class="win">
+      <div class="win-bar"><span class="dots"><i></i><i></i><i></i></span><span>stack.json</span></div>
+      <div class="win-body">
+<pre class="code">{
+  <span class="k">"front"</span>: [<span class="s">"HTML"</span>, <span class="s">"CSS"</span>, <span class="s">"JavaScript"</span>],
+  <span class="k">"back"</span>:  [<span class="s">"PHP"</span>, <span class="s">"Symfony"</span>, <span class="s">"SQL"</span>],
+  <span class="k">"outils"</span>: [<span class="s">"Git"</span>, <span class="s">"Trello"</span>]
+}</pre>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="projets">
+    <div class="section-head"><h2><span class="p" aria-hidden="true">~/</span>Projets</h2></div>
+
+    <div class="filters">
+      <button class="filter-btn active" data-filter="tous">Tous</button>
+      <button class="filter-btn" data-filter="ecole">École</button>
+      <button class="filter-btn" data-filter="alternance">Alternance</button>
+    </div>
+
+    <div class="project-grid" id="projectGrid">
+      <article class="project win" data-category="ecole">
+        <div class="win-bar"><span class="dots"><i></i><i></i><i></i></span><span>projets/ecole/planet</span></div>
+        <div class="win-body">
+          <h3>Pla’Net — Gestion de planning scolaire</h3>
+          <p>Application de gestion de planning développée en Symfony pour un établissement multi-campus. J’ai rédigé le cahier des charges (3 campus, plusieurs spécialités, groupes en alternance et en initial) et je développe la partie applicative, avec un suivi des tâches sur Trello.</p>
+          <div class="stack"><span>Symfony</span><span>PHP</span><span>MySQL</span></div>
+        </div>
+      </article>
+
+      <!--
+        Pour ajouter un projet, duplique ce bloc et modifie data-category en "ecole" ou "alternance" :
+
+        <article class="project win" data-category="alternance">
+          <div class="win-bar"><span class="dots"><i></i><i></i><i></i></span><span>projets/alternance/nom-du-projet</span></div>
+          <div class="win-body">
+            <h3>Nom du projet</h3>
+            <p>Description courte : contexte, ton rôle, ce que ça a donné.</p>
+            <div class="stack"><span>Tech 1</span><span>Tech 2</span></div>
+          </div>
+        </article>
+      -->
+    </div>
+    <p class="empty-state" id="emptyState" style="display:none;">&gt; Aucun projet dans cette catégorie pour le moment.</p>
+  </section>
+
+  <section class="block" id="veille">
+    <div class="section-head"><h2><span class="p" aria-hidden="true">~/</span>Veille technologique</h2></div>
+    <div class="win">
+      <div class="win-bar"><span class="dots"><i></i><i></i><i></i></span><span>veille.log</span></div>
+      <div class="win-body">
+        <div class="veille-list">
+          <div class="veille-entry">
+            <div class="veille-date">24/09</div>
+            <div>
+              <h4>Article à compléter</h4>
+              <p>Remplace ce texte par une actu, un article ou une vidéo que tu as suivie ce jour-là, avec ce que t’en retiens en 1-2 phrases.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Pour ajouter une entrée de veille, duplique un bloc .veille-entry au-dessus. -->
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="contact">
+    <div class="section-head"><h2><span class="p" aria-hidden="true">~/</span>Me contacter</h2></div>
+    <div class="win">
+      <div class="win-bar"><span class="dots"><i></i><i></i><i></i></span><span>contact.sh</span></div>
+      <div class="win-body">
+        <div class="contact-links">
+          <div><span class="key">mail</span><a href="mailto:maxime.leroy@mediaschool.me">maxime.leroy@mediaschool.me</a></div>
+          <div><span class="key">git&nbsp;</span><a href="https://github.com/maxime7606" target="_blank" rel="noopener">github.com/maxime7606</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  © 2026 Maxime Leroy — BTS SIO SLAM
+</footer>
+
+<script>
+  var toggle = document.getElementById("themeToggle");
+  toggle.addEventListener("click", function () {
+    var current = document.documentElement.getAttribute("data-theme");
+    var next = current === "dark" ? "light" : "dark";
+    document.documentElement.setAttribute("data-theme", next);
+    try { localStorage.setItem("theme", next); } catch (e) {}
+  });
+
+  var menuBtn = document.getElementById("menuBtn");
+  var navLinks = document.getElementById("navLinks");
+  menuBtn.addEventListener("click", function () { navLinks.classList.toggle("open"); });
+  navLinks.querySelectorAll("a").forEach(function (link) {
+    link.addEventListener("click", function () { navLinks.classList.remove("open"); });
+  });
+
+  var filterBtns = document.querySelectorAll(".filter-btn");
+  var projects = document.querySelectorAll(".project");
+  var emptyState = document.getElementById("emptyState");
+  filterBtns.forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      filterBtns.forEach(function (b) { b.classList.remove("active"); });
+      btn.classList.add("active");
+      var filter = btn.dataset.filter;
+      var visible = 0;
+      projects.forEach(function (p) {
+        var show = filter === "tous" || p.dataset.category === filter;
+        p.style.display = show ? "block" : "none";
+        if (show) visible++;
+      });
+      emptyState.style.display = visible === 0 ? "block" : "none";
+    });
+  });
+
+  // Effet "frappe" dans le terminal du hero
+  (function () {
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    var cmds = Array.prototype.slice.call(document.querySelectorAll("#term .cmd"));
+    var outs = Array.prototype.slice.call(document.querySelectorAll("#term .out"));
+    var texts = cmds.map(function (c) { return c.textContent; });
+    cmds.forEach(function (c) { c.textContent = ""; });
+    outs.forEach(function (o) { o.classList.add("hidden-out"); });
+    var i = 0;
+    function typeNext() {
+      if (i >= cmds.length) return;
+      var el = cmds[i], txt = texts[i], n = 0;
+      var t = setInterval(function () {
+        el.textContent = txt.slice(0, ++n);
+        if (n >= txt.length) {
+          clearInterval(t);
+          outs[i].classList.remove("hidden-out");
+          i++;
+          setTimeout(typeNext, 350);
+        }
+      }, 55);
+    }
+    setTimeout(typeNext, 400);
+  })();
+</script>
+
+</body>
+</html>
