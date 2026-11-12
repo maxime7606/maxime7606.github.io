@@ -1,5 +1,5 @@
 {
-  "maj": "2026-11-12T11:02:49.813650+00:00",
+  "maj": "2026-11-12T11:54:50.122150+00:00",
   "categories": {
     "dev": [
       {
@@ -67,34 +67,34 @@
     ],
     "composants": [
       {
+        "titre": "Bilan des frappes de drones ukrainiens : Yandex a perdu à jamais près de 3 % des données de son cloud",
+        "lien": "https://www.numerama.com/cyberguerre/2372839-bilan-des-frappes-de-drones-ukrainiens-yandex-a-perdu-a-jamais-pres-de-3-des-donnees-de-son-cloud.html",
+        "source": "Numerama",
+        "date": "2026-11-12T11:40:00+00:00"
+      },
+      {
+        "titre": "GTA 6 est en magasin : où le payer moins cher, à J-7 de sa sortie",
+        "lien": "https://www.numerama.com/pop-culture/2372707-gta-6-est-en-magasin-ou-le-payer-moins-cher-a-j-7-de-sa-sortie.html",
+        "source": "Numerama",
+        "date": "2026-11-12T11:19:00+00:00"
+      },
+      {
+        "titre": "Superman : Henry Cavill de retour dans le rôle ? L’acteur s’exprime",
+        "lien": "https://www.numerama.com/pop-culture/2372845-superman-henry-cavill-de-retour-dans-le-role-lacteur-sexprime.html",
+        "source": "Numerama",
+        "date": "2026-11-12T11:18:04+00:00"
+      },
+      {
+        "titre": "Save $300 on this 1440p gaming PC with a 9800X3D and RTX 5070 right now",
+        "lien": "https://www.tomshardware.com/desktops/gaming-pcs/save-usd350-on-this-all-amd-1440p-gaming-desktop-with-9800x3d-rx-9070-also-features-32gb-of-ram-and-a-1tb-ssd-for-just-usd1-949",
+        "source": "Tom's Hardware",
+        "date": "2026-11-12T11:12:26+00:00"
+      },
+      {
         "titre": "Google reworks TPU silicon into specialized systems for agents and security",
         "lien": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-adds-two-new-specialized-chips-for-ai-agents-and-security-to-8th-gen-tpu-lineup-tpu-8i-max-puts-two-chips-on-one-package-for-long-context-work-tpu-8tx-swaps-arm-hosts-for-amd-epyc",
         "source": "Tom's Hardware",
         "date": "2026-11-12T11:00:00+00:00"
-      },
-      {
-        "titre": "CD Projekt mobilise l’IA pour l’extension de The Witcher 3 : « C’est l’un des cas de figure où l’on peut utiliser l’IA de manière éthique »",
-        "lien": "https://www.numerama.com/pop-culture/2372693-cd-projekt-mobilise-lia-pour-lextension-de-the-witcher-3-cest-lun-des-cas-de-figure-ou-lon-peut-utiliser-lia-de-maniere-ethique.html",
-        "source": "Numerama",
-        "date": "2026-11-12T11:00:00+00:00"
-      },
-      {
-        "titre": "Nvidia sans Jensen Huang ? Le casse-tête de la succession",
-        "lien": "https://www.numerama.com/tech/2372735-nvidia-sans-jensen-huang-le-casse-tete-de-la-succession.html",
-        "source": "Numerama",
-        "date": "2026-11-12T10:50:38+00:00"
-      },
-      {
-        "titre": "Les fans avaient raison : la série Les Anneaux de pouvoir révèle enfin qui est le magicien ténébreux (dark wizard)",
-        "lien": "https://www.numerama.com/pop-culture/2372631-les-fans-avaient-raison-la-serie-les-anneaux-de-pouvoir-revele-enfin-qui-est-le-magicien-tenebreux-dark-wizard.html",
-        "source": "Numerama",
-        "date": "2026-11-12T10:34:34+00:00"
-      },
-      {
-        "titre": "Techie uses voltage glitching hack to turn $2,500 Nvidia 8GB cryptomining GPU into a full-fat $20,000 A100 with 80GB of VRAM",
-        "lien": "https://www.tomshardware.com/pc-components/gpus/techie-turns-usd2-500-cmp-170hx-8gb-mining-card-into-a-full-fat-a100-80gb-with-voltage-glitching-carefully-blowing-onboard-fuses-to-unlock-entire-vram-and-shader-modules",
-        "source": "Tom's Hardware",
-        "date": "2026-11-12T10:30:00+00:00"
       }
     ]
   }
