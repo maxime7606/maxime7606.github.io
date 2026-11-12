@@ -1,0 +1,101 @@
+{
+  "maj": "2026-11-12T10:56:41.571959+00:00",
+  "categories": {
+    "dev": [
+      {
+        "titre": "Modern Web Guidance - Votre agent IA va enfin goûter au code web moderne",
+        "lien": "https://korben.info/modern-web-guidance-agents-web.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+        "source": "Korben",
+        "date": "2026-11-12T08:00:00+00:00"
+      },
+      {
+        "titre": "Synctrain - Vos fichiers Syncthing à la demande sur iPhone",
+        "lien": "https://korben.info/synctrain-syncthing-iphone-ipad-mac.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+        "source": "Korben",
+        "date": "2026-11-11T08:00:00+00:00"
+      },
+      {
+        "titre": "Platypus - L'ornithorynque qui vous fait cligner des yeux",
+        "lien": "https://korben.info/platypus-cligner-des-yeux-ecran.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+        "source": "Korben",
+        "date": "2026-11-10T06:49:52+00:00"
+      },
+      {
+        "titre": "Nylon - Le VPN WireGuard qui trouve seul son chemin",
+        "lien": "https://korben.info/nylon-vpn-mesh-wireguard.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+        "source": "Korben",
+        "date": "2026-11-10T06:21:51+00:00"
+      },
+      {
+        "titre": "DockEcho - Un Dock sur chacun de vos écrans Mac",
+        "lien": "https://korben.info/dockecho-dock-macos-chaque-ecran.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+        "source": "Korben",
+        "date": "2026-11-10T05:44:55+00:00"
+      }
+    ],
+    "cyber": [
+      {
+        "titre": "Microsoft confirms Windows security updates installation issues",
+        "lien": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5132061-installation-issues-0x80070306-0x800f0989-0x800f0993-errors/",
+        "source": "BleepingComputer",
+        "date": "2026-11-12T10:24:07+00:00"
+      },
+      {
+        "titre": "Hackers plant GSocket on Linux servers for persistent access",
+        "lien": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/",
+        "source": "BleepingComputer",
+        "date": "2026-11-12T09:38:00+00:00"
+      },
+      {
+        "titre": "Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover",
+        "lien": "https://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html",
+        "source": "The Hacker News",
+        "date": "2026-11-12T09:25:00+00:00"
+      },
+      {
+        "titre": "Node.js Fixes 16 Flaws, Including HTTP/2 Bugs That Crash Servers and Leak Other Connections' Data",
+        "lien": "https://thehackernews.com/2026/11/nodejs-fixes-16-flaws-including-http2.html",
+        "source": "The Hacker News",
+        "date": "2026-11-12T08:20:37+00:00"
+      },
+      {
+        "titre": "Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories",
+        "lien": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
+        "source": "The Hacker News",
+        "date": "2026-11-12T06:42:47+00:00"
+      }
+    ],
+    "composants": [
+      {
+        "titre": "Nvidia sans Jensen Huang ? Le casse-tête de la succession",
+        "lien": "https://www.numerama.com/tech/2372735-nvidia-sans-jensen-huang-le-casse-tete-de-la-succession.html",
+        "source": "Numerama",
+        "date": "2026-11-12T10:50:38+00:00"
+      },
+      {
+        "titre": "Les fans avaient raison : la série Les Anneaux de pouvoir révèle enfin qui est le magicien ténébreux (dark wizard)",
+        "lien": "https://www.numerama.com/pop-culture/2372631-les-fans-avaient-raison-la-serie-les-anneaux-de-pouvoir-revele-enfin-qui-est-le-magicien-tenebreux-dark-wizard.html",
+        "source": "Numerama",
+        "date": "2026-11-12T10:34:34+00:00"
+      },
+      {
+        "titre": "Techie uses voltage glitching hack to turn $2,500 Nvidia 8GB cryptomining GPU into a full-fat $20,000 A100 with 80GB of VRAM",
+        "lien": "https://www.tomshardware.com/pc-components/gpus/techie-turns-usd2-500-cmp-170hx-8gb-mining-card-into-a-full-fat-a100-80gb-with-voltage-glitching-carefully-blowing-onboard-fuses-to-unlock-entire-vram-and-shader-modules",
+        "source": "Tom's Hardware",
+        "date": "2026-11-12T10:30:00+00:00"
+      },
+      {
+        "titre": "Vous pouvez payer 3,49 € pour jouer 10 heures à des jeux Xbox en streaming",
+        "lien": "https://www.numerama.com/pop-culture/2372621-vous-pouvez-payer-349-e-pour-jouer-10-heures-a-des-jeux-xbox-en-streaming.html",
+        "source": "Numerama",
+        "date": "2026-11-12T10:21:47+00:00"
+      },
+      {
+        "titre": "Struggling marijuana farmers pivot to becoming AI data center sites to escape falling weed revenue",
+        "lien": "https://www.tomshardware.com/tech-industry/data-centers/cannabis-farmers-consider-joining-ai-bandwagon-due-to-falling-weed-revenue-existing-sites-could-house-mini-data-center-nodes-but-still-face-serious-challenges-during-conversion",
+        "source": "Tom's Hardware",
+        "date": "2026-11-12T10:00:00+00:00"
+      }
+    ]
+  }
+}
