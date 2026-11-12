@@ -10,7 +10,7 @@ from email.utils import parsedate_to_datetime
 # categorie -> liste de (nom affiché, URL du flux)
 FLUX = {
     "dev": [
-        ("Symfony", "https://symfony.com/blog/rss.xml"),
+        ("Symfony", "https://feeds.feedburner.com/symfony/blog"),
         ("Korben", "https://korben.info/feed"),
     ],
     "cyber": [
