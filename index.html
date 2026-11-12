@@ -163,6 +163,22 @@
   .code .k { color: var(--accent); }
   .code .s { color: var(--amber); }
 
+  /* Compétences par blocs */
+  #competences .win { margin-bottom: 1.1rem; }
+  .bloc-title { margin: 0 0 0.9rem; font-size: 1rem; }
+  .comp {
+    display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.2rem 1rem;
+    padding: 0.55rem 0; border-bottom: 1px dashed var(--border); font-size: 0.94rem;
+  }
+  .comp:last-child { border-bottom: none; }
+  .comp .ok { color: var(--green); font-family: "JetBrains Mono", ui-monospace, Consolas, monospace; margin-right: 0.6rem; }
+  .comp a {
+    font-family: "JetBrains Mono", ui-monospace, Consolas, monospace; font-size: 0.78rem;
+    color: var(--accent); text-decoration: none;
+  }
+  .comp a:hover { text-decoration: underline; }
+  .project { scroll-margin-top: 84px; }
+
   /* Projets */
   .filters {
     display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.4rem;
@@ -275,6 +291,34 @@
 
   <section class="block" id="competences">
     <div class="section-head"><h2><span class="p" aria-hidden="true">~/</span>Compétences</h2></div>
+
+    <div class="win">
+      <div class="win-bar"><span class="dots"><i></i><i></i><i></i></span><span>bloc-1/support-et-services</span></div>
+      <div class="win-body">
+        <h3 class="bloc-title">Bloc 1 — Support et mise à disposition de services informatiques</h3>
+        <div class="comp"><span><span class="ok">[ok]</span>Gérer le patrimoine informatique</span><a href="#projet-win11">migration Windows 11</a></div>
+        <div class="comp"><span><span class="ok">[ok]</span>Mettre à disposition des utilisateurs un service informatique</span><a href="#projet-win11">migration Windows 11</a></div>
+        <div class="comp"><span><span class="ok">[ok]</span>Travailler en mode projet</span><a href="#projet-win11">migration Windows 11</a></div>
+      </div>
+    </div>
+
+    <div class="win">
+      <div class="win-bar"><span class="dots"><i></i><i></i><i></i></span><span>bloc-2/conception-et-developpement</span></div>
+      <div class="win-body">
+        <h3 class="bloc-title">Bloc 2 — Conception et développement d’applications</h3>
+        <div class="comp"><span><span class="ok">[ok]</span>Concevoir et développer une solution applicative</span><a href="#projet-planet">Pla’Net</a></div>
+        <div class="comp"><span><span class="ok">[ok]</span>Gérer les données</span><a href="#projet-fournil">Le Fournil</a></div>
+      </div>
+    </div>
+
+    <div class="win">
+      <div class="win-bar"><span class="dots"><i></i><i></i><i></i></span><span>bloc-3/cybersecurite</span></div>
+      <div class="win-body">
+        <h3 class="bloc-title">Bloc 3 — Cybersécurité des services informatiques</h3>
+        <p class="empty-state">&gt; Aucun projet à présenter pour le moment.</p>
+      </div>
+    </div>
+
     <div class="win">
       <div class="win-bar"><span class="dots"><i></i><i></i><i></i></span><span>stack.json</span></div>
       <div class="win-body">
@@ -297,12 +341,30 @@
     </div>
 
     <div class="project-grid" id="projectGrid">
-      <article class="project win" data-category="ecole">
+      <article class="project win" id="projet-planet" data-category="ecole">
         <div class="win-bar"><span class="dots"><i></i><i></i><i></i></span><span>projets/ecole/planet</span></div>
         <div class="win-body">
           <h3>Pla’Net — Gestion de planning scolaire</h3>
           <p>Application de gestion de planning développée en Symfony pour un établissement multi-campus. J’ai rédigé le cahier des charges (3 campus, plusieurs spécialités, groupes en alternance et en initial) et je développe la partie applicative, avec un suivi des tâches sur Trello.</p>
           <div class="stack"><span>Symfony</span><span>PHP</span><span>MySQL</span></div>
+        </div>
+      </article>
+
+      <article class="project win" id="projet-win11" data-category="alternance">
+        <div class="win-bar"><span class="dots"><i></i><i></i><i></i></span><span>projets/alternance/migration-windows-11</span></div>
+        <div class="win-body">
+          <h3>Migration de 300+ postes de Windows 10 à Windows 11</h3>
+          <p>Projet en entreprise : préparer et déployer plus de 300 postes de travail sous Windows 11. Je créais une image (remasterisation) avec Windows 11, les applications de base et la configuration de l’entreprise, j’installais les applications métier selon les besoins (et Teams, Chrome…), je plaçais le poste dans la bonne OU de l’Active Directory, puis je l’expédiais via Chronopost.</p>
+          <div class="stack"><span>Windows 11</span><span>Active Directory</span><span>Remasterisation</span><span>Déploiement</span></div>
+        </div>
+      </article>
+
+      <article class="project win" id="projet-fournil" data-category="ecole">
+        <div class="win-bar"><span class="dots"><i></i><i></i><i></i></span><span>projets/ecole/le-fournil</span></div>
+        <div class="win-body">
+          <h3>Le Fournil — Base de données d’une boulangerie click &amp; collect</h3>
+          <p>TP du module Bases de données avancées : j’ai conçu le modèle (MCD puis MLD), créé les tables avec leurs contraintes, écrit des requêtes (jointures, regroupements, sous-requêtes) et une vue, puis automatisé des règles de gestion avec des triggers (stock, montant des commandes, historique des prix).</p>
+          <div class="stack"><span>MySQL</span><span>SQL</span><span>Triggers</span><span>Looping</span></div>
         </div>
       </article>
 
@@ -336,22 +398,6 @@
         </div>
         <div class="veille-list" id="feedList"><p class="empty-state">&gt; Chargement des actus...</p></div>
         <p class="feed-note" id="feedNote"></p>
-      </div>
-    </div>
-
-    <div class="win">
-      <div class="win-bar"><span class="dots"><i></i><i></i><i></i></span><span>ma-synthese.md</span></div>
-      <div class="win-body">
-        <div class="veille-list">
-          <div class="veille-entry">
-            <div class="veille-date">24/09</div>
-            <div>
-              <h4>Article à compléter</h4>
-              <p>Remplace ce texte par une actu, un article ou une vidéo que tu as suivie ce jour-là, avec ce que t’en retiens en 1-2 phrases.</p>
-            </div>
-          </div>
-        </div>
-        <!-- Pour ajouter une entrée de synthèse, duplique un bloc .veille-entry au-dessus. -->
       </div>
     </div>
   </section>
