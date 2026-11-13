@@ -1,7 +1,25 @@
 {
-  "maj": "2026-11-12T11:54:50.122150+00:00",
+  "maj": "2026-11-13T13:34:29.092667+00:00",
   "categories": {
     "dev": [
+      {
+        "titre": "Agent-desktop pilote vos applis sans regarder l'écran",
+        "lien": "https://korben.info/agent-desktop.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+        "source": "Korben",
+        "date": "2026-11-13T10:57:03+00:00"
+      },
+      {
+        "titre": "New in Symfony 8.2: Validator Improvements",
+        "lien": "https://symfony.com/blog/new-in-symfony-8-2-validator-improvements?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
+        "source": "Symfony",
+        "date": "2026-11-13T08:16:00+00:00"
+      },
+      {
+        "titre": "Changement de décor pour SymfonyLive Paris 2027 : direction l'Espace 42 pour une édition renouvelée !",
+        "lien": "https://symfony.com/blog/changement-de-decor-pour-symfonylive-paris-2027-direction-l-espace-42-pour-une-edition-renouvelee?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
+        "source": "Symfony",
+        "date": "2026-11-12T13:30:00+00:00"
+      },
       {
         "titre": "New in Symfony 8.2: Form Improvements",
         "lien": "https://symfony.com/blog/new-in-symfony-8-2-form-improvements?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
@@ -13,88 +31,70 @@
         "lien": "https://korben.info/modern-web-guidance-agents-web.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
         "source": "Korben",
         "date": "2026-11-12T08:00:00+00:00"
-      },
-      {
-        "titre": "SymfonyCon Warsaw 2026: Beyond Mocks",
-        "lien": "https://symfony.com/blog/symfonycon-warsaw-2026-beyond-mocks?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
-        "source": "Symfony",
-        "date": "2026-11-11T13:30:00+00:00"
-      },
-      {
-        "titre": "New in Symfony 8.2: Messenger Flows",
-        "lien": "https://symfony.com/blog/new-in-symfony-8-2-messenger-flows?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
-        "source": "Symfony",
-        "date": "2026-11-11T08:16:00+00:00"
-      },
-      {
-        "titre": "Synctrain - Vos fichiers Syncthing à la demande sur iPhone",
-        "lien": "https://korben.info/synctrain-syncthing-iphone-ipad-mac.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
-        "source": "Korben",
-        "date": "2026-11-11T08:00:00+00:00"
       }
     ],
     "cyber": [
       {
-        "titre": "Microsoft confirms Windows security updates installation issues",
-        "lien": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5132061-installation-issues-0x80070306-0x800f0989-0x800f0993-errors/",
+        "titre": "Microsoft says November security updates cause printing issues",
+        "lien": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/",
         "source": "BleepingComputer",
-        "date": "2026-11-12T10:24:07+00:00"
+        "date": "2026-11-13T12:27:40+00:00"
       },
       {
-        "titre": "Hackers plant GSocket on Linux servers for persistent access",
-        "lien": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/",
+        "titre": "When an AI Agent Goes Wrong, Can You Stop It?",
+        "lien": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html",
+        "source": "The Hacker News",
+        "date": "2026-11-13T11:52:31+00:00"
+      },
+      {
+        "titre": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
+        "lien": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html",
+        "source": "The Hacker News",
+        "date": "2026-11-13T11:10:40+00:00"
+      },
+      {
+        "titre": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
+        "lien": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
+        "source": "The Hacker News",
+        "date": "2026-11-13T10:55:03+00:00"
+      },
+      {
+        "titre": "Check Point warns of zero-day flaw exploited for root access",
+        "lien": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
         "source": "BleepingComputer",
-        "date": "2026-11-12T09:38:00+00:00"
-      },
-      {
-        "titre": "Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover",
-        "lien": "https://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html",
-        "source": "The Hacker News",
-        "date": "2026-11-12T09:25:00+00:00"
-      },
-      {
-        "titre": "Node.js Fixes 16 Flaws, Including HTTP/2 Bugs That Crash Servers and Leak Other Connections' Data",
-        "lien": "https://thehackernews.com/2026/11/nodejs-fixes-16-flaws-including-http2.html",
-        "source": "The Hacker News",
-        "date": "2026-11-12T08:20:37+00:00"
-      },
-      {
-        "titre": "Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories",
-        "lien": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
-        "source": "The Hacker News",
-        "date": "2026-11-12T06:42:47+00:00"
+        "date": "2026-11-13T10:44:22+00:00"
       }
     ],
     "composants": [
       {
-        "titre": "Bilan des frappes de drones ukrainiens : Yandex a perdu à jamais près de 3 % des données de son cloud",
-        "lien": "https://www.numerama.com/cyberguerre/2372839-bilan-des-frappes-de-drones-ukrainiens-yandex-a-perdu-a-jamais-pres-de-3-des-donnees-de-son-cloud.html",
-        "source": "Numerama",
-        "date": "2026-11-12T11:40:00+00:00"
-      },
-      {
-        "titre": "GTA 6 est en magasin : où le payer moins cher, à J-7 de sa sortie",
-        "lien": "https://www.numerama.com/pop-culture/2372707-gta-6-est-en-magasin-ou-le-payer-moins-cher-a-j-7-de-sa-sortie.html",
-        "source": "Numerama",
-        "date": "2026-11-12T11:19:00+00:00"
-      },
-      {
-        "titre": "Superman : Henry Cavill de retour dans le rôle ? L’acteur s’exprime",
-        "lien": "https://www.numerama.com/pop-culture/2372845-superman-henry-cavill-de-retour-dans-le-role-lacteur-sexprime.html",
-        "source": "Numerama",
-        "date": "2026-11-12T11:18:04+00:00"
-      },
-      {
-        "titre": "Save $300 on this 1440p gaming PC with a 9800X3D and RTX 5070 right now",
-        "lien": "https://www.tomshardware.com/desktops/gaming-pcs/save-usd350-on-this-all-amd-1440p-gaming-desktop-with-9800x3d-rx-9070-also-features-32gb-of-ram-and-a-1tb-ssd-for-just-usd1-949",
+        "titre": "‘Broken and shattered’ Nvidia CEO Jensen Huang surrendered during resignation meeting, report claims",
+        "lien": "https://www.tomshardware.com/tech-industry/broken-and-shattered-nvidia-ceo-jensen-huang-surrendered-during-resignation-meeting-report-claims-thousands-of-employees-rally-calling-for-reinstatement-on-internal-forum",
         "source": "Tom's Hardware",
-        "date": "2026-11-12T11:12:26+00:00"
+        "date": "2026-11-13T13:16:16+00:00"
       },
       {
-        "titre": "Google reworks TPU silicon into specialized systems for agents and security",
-        "lien": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-adds-two-new-specialized-chips-for-ai-agents-and-security-to-8th-gen-tpu-lineup-tpu-8i-max-puts-two-chips-on-one-package-for-long-context-work-tpu-8tx-swaps-arm-hosts-for-amd-epyc",
+        "titre": "Boulanger retire 350 € au Google Pixel 11 pour le Black Friday, trois mois seulement après sa sortie",
+        "lien": "https://www.numerama.com/tech/2373973-boulanger-retire-350-e-au-google-pixel-11-trois-mois-seulement-apres-sa-sortie.html",
+        "source": "Numerama",
+        "date": "2026-11-13T13:15:22+00:00"
+      },
+      {
+        "titre": "Japanese workers return to fax machines during ongoing Microsoft 365 outage",
+        "lien": "https://www.tomshardware.com/software/japanese-workers-return-to-fax-machines-during-ongoing-microsoft-365-outage-were-going-full-analog-say-workers-forced-to-ditch-pdfs",
         "source": "Tom's Hardware",
-        "date": "2026-11-12T11:00:00+00:00"
+        "date": "2026-11-13T12:57:37+00:00"
+      },
+      {
+        "titre": "Les Anneaux de pouvoir invente une origine aux montures ailées des Nazgûl que Tolkien n’avait jamais vraiment tranchée",
+        "lien": "https://www.numerama.com/pop-culture/2373691-les-anneaux-de-pouvoir-la-serie-reecrit-lorigine-des-montures-ailees-des-nazgul.html",
+        "source": "Numerama",
+        "date": "2026-11-13T12:31:00+00:00"
+      },
+      {
+        "titre": "Walmart has slashed $730 off this monster gaming PC with RTX 5070 Ti",
+        "lien": "https://www.tomshardware.com/desktops/gaming-pcs/walmart-has-slashed-usd730-off-this-monster-gaming-pc-with-rtx-5070-ti-also-features-a-24-core-intel-processor-32gb-ddr5-2tb-ssd",
+        "source": "Tom's Hardware",
+        "date": "2026-11-13T11:30:00+00:00"
       }
     ]
   }
