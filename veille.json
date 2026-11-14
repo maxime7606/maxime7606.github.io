@@ -1,100 +1,100 @@
 {
-  "maj": "2026-11-13T13:34:29.092667+00:00",
+  "maj": "2026-11-14T12:39:36.059387+00:00",
   "categories": {
     "dev": [
+      {
+        "titre": "New in Symfony 8.2: Link Sets and Link Templates",
+        "lien": "https://symfony.com/blog/new-in-symfony-8-2-link-sets-and-link-templates?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
+        "source": "Symfony",
+        "date": "2026-11-14T08:03:00+00:00"
+      },
+      {
+        "titre": "Stela - Le retour du Hackintosh ?",
+        "lien": "https://korben.info/stela-macos-pc-x86-hackintosh.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+        "source": "Korben",
+        "date": "2026-11-14T01:03:37+00:00"
+      },
+      {
+        "titre": "Symfony 8.2.0-BETA2 released",
+        "lien": "https://symfony.com/blog/symfony-8-2-0-beta2-released?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
+        "source": "Symfony",
+        "date": "2026-11-13T17:33:24+00:00"
+      },
+      {
+        "titre": "SymfonyCon Warsaw 2026: The building blocks of an agentic software factory",
+        "lien": "https://symfony.com/blog/symfonycon-warsaw-2026-the-building-blocks-of-an-agentic-software-factory?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
+        "source": "Symfony",
+        "date": "2026-11-13T13:30:00+00:00"
+      },
       {
         "titre": "Agent-desktop pilote vos applis sans regarder l'écran",
         "lien": "https://korben.info/agent-desktop.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
         "source": "Korben",
         "date": "2026-11-13T10:57:03+00:00"
-      },
-      {
-        "titre": "New in Symfony 8.2: Validator Improvements",
-        "lien": "https://symfony.com/blog/new-in-symfony-8-2-validator-improvements?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
-        "source": "Symfony",
-        "date": "2026-11-13T08:16:00+00:00"
-      },
-      {
-        "titre": "Changement de décor pour SymfonyLive Paris 2027 : direction l'Espace 42 pour une édition renouvelée !",
-        "lien": "https://symfony.com/blog/changement-de-decor-pour-symfonylive-paris-2027-direction-l-espace-42-pour-une-edition-renouvelee?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
-        "source": "Symfony",
-        "date": "2026-11-12T13:30:00+00:00"
-      },
-      {
-        "titre": "New in Symfony 8.2: Form Improvements",
-        "lien": "https://symfony.com/blog/new-in-symfony-8-2-form-improvements?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
-        "source": "Symfony",
-        "date": "2026-11-12T08:06:00+00:00"
-      },
-      {
-        "titre": "Modern Web Guidance - Votre agent IA va enfin goûter au code web moderne",
-        "lien": "https://korben.info/modern-web-guidance-agents-web.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
-        "source": "Korben",
-        "date": "2026-11-12T08:00:00+00:00"
       }
     ],
     "cyber": [
       {
-        "titre": "Microsoft says November security updates cause printing issues",
-        "lien": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/",
+        "titre": "Trezor confirms crypto-stealing implants in three wallets, releases fix",
+        "lien": "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/",
         "source": "BleepingComputer",
-        "date": "2026-11-13T12:27:40+00:00"
+        "date": "2026-11-13T19:38:36+00:00"
       },
       {
-        "titre": "When an AI Agent Goes Wrong, Can You Stop It?",
-        "lien": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html",
-        "source": "The Hacker News",
-        "date": "2026-11-13T11:52:31+00:00"
-      },
-      {
-        "titre": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
-        "lien": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html",
-        "source": "The Hacker News",
-        "date": "2026-11-13T11:10:40+00:00"
-      },
-      {
-        "titre": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
-        "lien": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
-        "source": "The Hacker News",
-        "date": "2026-11-13T10:55:03+00:00"
-      },
-      {
-        "titre": "Check Point warns of zero-day flaw exploited for root access",
-        "lien": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
+        "titre": "German military drone operations disrupted by cyberattack",
+        "lien": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
         "source": "BleepingComputer",
-        "date": "2026-11-13T10:44:22+00:00"
+        "date": "2026-11-13T17:31:56+00:00"
+      },
+      {
+        "titre": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
+        "lien": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
+        "source": "The Hacker News",
+        "date": "2026-11-13T16:53:08+00:00"
+      },
+      {
+        "titre": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
+        "lien": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
+        "source": "BleepingComputer",
+        "date": "2026-11-13T16:21:43+00:00"
+      },
+      {
+        "titre": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
+        "lien": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
+        "source": "The Hacker News",
+        "date": "2026-11-13T15:27:05+00:00"
       }
     ],
     "composants": [
       {
-        "titre": "‘Broken and shattered’ Nvidia CEO Jensen Huang surrendered during resignation meeting, report claims",
-        "lien": "https://www.tomshardware.com/tech-industry/broken-and-shattered-nvidia-ceo-jensen-huang-surrendered-during-resignation-meeting-report-claims-thousands-of-employees-rally-calling-for-reinstatement-on-internal-forum",
+        "titre": "China’s Air Force builds drone that shoots painkiller darts at wounded soldiers",
+        "lien": "https://www.tomshardware.com/tech-industry/drones/chinas-air-force-builds-drone-that-shoots-painkiller-darts-at-wounded-soldiers-experimental-pla-uav-injects-emergency-meds-from-a-distance-to-keep-medics-out-of-danger-and-buys-time-during-the-golden-hour",
         "source": "Tom's Hardware",
-        "date": "2026-11-13T13:16:16+00:00"
+        "date": "2026-11-14T12:30:00+00:00"
       },
       {
-        "titre": "Boulanger retire 350 € au Google Pixel 11 pour le Black Friday, trois mois seulement après sa sortie",
-        "lien": "https://www.numerama.com/tech/2373973-boulanger-retire-350-e-au-google-pixel-11-trois-mois-seulement-apres-sa-sortie.html",
+        "titre": "Black Friday 2026 : voici la technique la plus rapide pour vérifier si un message provient vraiment d’Amazon",
+        "lien": "https://www.numerama.com/cyberguerre/2374317-black-friday-2026-voici-la-technique-la-plus-rapide-pour-verifier-si-un-message-provient-vraiment-damazon.html",
         "source": "Numerama",
-        "date": "2026-11-13T13:15:22+00:00"
+        "date": "2026-11-14T12:05:00+00:00"
       },
       {
-        "titre": "Japanese workers return to fax machines during ongoing Microsoft 365 outage",
-        "lien": "https://www.tomshardware.com/software/japanese-workers-return-to-fax-machines-during-ongoing-microsoft-365-outage-were-going-full-analog-say-workers-forced-to-ditch-pdfs",
+        "titre": "Commemorative plaque at Denny’s booth where Nvidia was born has been removed in wake of Jensen Huang scandals",
+        "lien": "https://www.tomshardware.com/tech-industry/commemorative-plaque-at-dennys-booth-where-nvidia-was-born-has-been-removed-sign-removed-in-wake-of-jensens-scandals-marked-the-booth-that-launched-a-usd1-trillion-company",
         "source": "Tom's Hardware",
-        "date": "2026-11-13T12:57:37+00:00"
+        "date": "2026-11-14T12:00:00+00:00"
       },
       {
-        "titre": "Les Anneaux de pouvoir invente une origine aux montures ailées des Nazgûl que Tolkien n’avait jamais vraiment tranchée",
-        "lien": "https://www.numerama.com/pop-culture/2373691-les-anneaux-de-pouvoir-la-serie-reecrit-lorigine-des-montures-ailees-des-nazgul.html",
+        "titre": "Númenor dans Les Anneaux de pouvoir : ce qu’il est advenu de l’île de Tolkien dans Le Seigneur des anneaux",
+        "lien": "https://www.numerama.com/pop-culture/1107026-numenor-dans-les-anneaux-de-pouvoir-ce-quil-est-advenu-de-lile-de-tolkien-dans-le-seigneur-des-anneaux.html",
         "source": "Numerama",
-        "date": "2026-11-13T12:31:00+00:00"
+        "date": "2026-11-14T11:38:54+00:00"
       },
       {
-        "titre": "Walmart has slashed $730 off this monster gaming PC with RTX 5070 Ti",
-        "lien": "https://www.tomshardware.com/desktops/gaming-pcs/walmart-has-slashed-usd730-off-this-monster-gaming-pc-with-rtx-5070-ti-also-features-a-24-core-intel-processor-32gb-ddr5-2tb-ssd",
+        "titre": "Mechatronics student builds 3D printer made from 92% LEGO for less than $180",
+        "lien": "https://www.tomshardware.com/3d-printing/mechatronics-student-builds-3d-printer-made-from-92-percent-lego-for-less-than-usd180-lego-leadscrews-and-print-bed-can-print-a-decent-benchy-in-1-25-hours",
         "source": "Tom's Hardware",
-        "date": "2026-11-13T11:30:00+00:00"
+        "date": "2026-11-14T11:30:00+00:00"
       }
     ]
   }
