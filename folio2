@@ -177,6 +177,7 @@
     color: var(--accent); text-decoration: none;
   }
   .comp a:hover { text-decoration: underline; }
+  .comp .refs { display: flex; flex-wrap: wrap; gap: 0.2rem 0.9rem; }
   .project { scroll-margin-top: 84px; }
 
   /* Projets */
@@ -204,6 +205,27 @@
     font-size: 0.76rem; color: var(--accent);
     border: 1px solid var(--border); padding: 0.15rem 0.55rem; border-radius: 4px;
   }
+  .project .tag {
+    display: inline-block; margin-bottom: 0.6rem;
+    font-family: "JetBrains Mono", ui-monospace, Consolas, monospace;
+    font-size: 0.74rem; color: var(--amber);
+  }
+  .project ul.feat {
+    margin: 0 0 1rem; padding: 0; list-style: none;
+    color: var(--muted); font-size: 0.93rem;
+  }
+  .project ul.feat li { padding: 0.18rem 0 0.18rem 1.4rem; position: relative; }
+  .project ul.feat li::before {
+    content: ">"; position: absolute; left: 0; color: var(--green);
+    font-family: "JetBrains Mono", ui-monospace, Consolas, monospace;
+  }
+  .project ul.feat b { color: var(--text); font-weight: 600; }
+  .project .links {
+    display: flex; flex-wrap: wrap; gap: 0.4rem 1.2rem; margin-top: 1rem;
+    font-family: "JetBrains Mono", ui-monospace, Consolas, monospace; font-size: 0.84rem;
+  }
+  .project .links a { color: var(--accent); text-decoration: none; }
+  .project .links a:hover { text-decoration: underline; }
   .empty-state {
     color: var(--muted); font-size: 0.88rem;
     font-family: "JetBrains Mono", ui-monospace, Consolas, monospace;
@@ -281,7 +303,7 @@
         <p class="line"><span class="ps">maxime@portfolio</span>:<span class="path">~</span>$ <span class="cmd">whoami</span></p>
         <p class="out"><strong>Maxime Leroy</strong>Étudiant développeur en BTS SIO, option SLAM.</p>
         <p class="line"><span class="ps">maxime@portfolio</span>:<span class="path">~</span>$ <span class="cmd">cat status.txt</span></p>
-        <p class="out">Je conçois et je développe des applications, du cahier des charges jusqu’au code.<br><span class="dim">En cours :</span> <span class="hl">Pla’Net</span>, une application de gestion de planning en Symfony.</p>
+        <p class="out">Je conçois et je développe des applications, du cahier des charges jusqu’au code.<br><span class="dim">Dernier projet :</span> <span class="hl">Helpdesk</span>, une application de gestion de tickets d’assistance en Symfony.</p>
         <p class="line"><span class="ps">maxime@portfolio</span>:<span class="path">~</span>$ <span class="cmd">ls sections/</span></p>
         <p class="out"><a href="#projets">projets/</a><a href="#competences">competences/</a><a href="#veille">veille/</a><a href="#contact">contact/</a></p>
         <p class="line"><span class="ps">maxime@portfolio</span>:<span class="path">~</span>$ <span class="cursor" aria-hidden="true"></span></p>
@@ -298,7 +320,8 @@
         <h3 class="bloc-title">Bloc 1 — Support et mise à disposition de services informatiques</h3>
         <div class="comp"><span><span class="ok">[ok]</span>Gérer le patrimoine informatique</span><a href="#projet-win11">migration Windows 11</a></div>
         <div class="comp"><span><span class="ok">[ok]</span>Mettre à disposition des utilisateurs un service informatique</span><a href="#projet-win11">migration Windows 11</a></div>
-        <div class="comp"><span><span class="ok">[ok]</span>Travailler en mode projet</span><a href="#projet-win11">migration Windows 11</a></div>
+        <div class="comp"><span><span class="ok">[ok]</span>Travailler en mode projet</span><span class="refs"><a href="#projet-win11">migration Windows 11</a><a href="#projet-helpdesk">Helpdesk</a></span></div>
+        <div class="comp"><span><span class="ok">[ok]</span>Organiser son développement professionnel</span><span class="refs"><a href="#veille">veille technologique</a></span></div>
       </div>
     </div>
 
@@ -306,8 +329,9 @@
       <div class="win-bar"><span class="dots"><i></i><i></i><i></i></span><span>bloc-2/conception-et-developpement</span></div>
       <div class="win-body">
         <h3 class="bloc-title">Bloc 2 — Conception et développement d’applications</h3>
-        <div class="comp"><span><span class="ok">[ok]</span>Concevoir et développer une solution applicative</span><a href="#projet-planet">Pla’Net</a></div>
-        <div class="comp"><span><span class="ok">[ok]</span>Gérer les données</span><a href="#projet-fournil">Le Fournil</a></div>
+        <div class="comp"><span><span class="ok">[ok]</span>Concevoir et développer une solution applicative</span><span class="refs"><a href="#projet-helpdesk">Helpdesk</a><a href="#projet-planet">Pla’Net</a></span></div>
+        <div class="comp"><span><span class="ok">[ok]</span>Assurer la maintenance corrective ou évolutive d’une solution applicative</span><span class="refs"><a href="#projet-helpdesk">Helpdesk</a></span></div>
+        <div class="comp"><span><span class="ok">[ok]</span>Gérer les données</span><span class="refs"><a href="#projet-helpdesk">Helpdesk</a><a href="#projet-fournil">Le Fournil</a></span></div>
       </div>
     </div>
 
@@ -315,7 +339,8 @@
       <div class="win-bar"><span class="dots"><i></i><i></i><i></i></span><span>bloc-3/cybersecurite</span></div>
       <div class="win-body">
         <h3 class="bloc-title">Bloc 3 — Cybersécurité des services informatiques</h3>
-        <p class="empty-state">&gt; Aucun projet à présenter pour le moment.</p>
+        <div class="comp"><span><span class="ok">[ok]</span>Assurer la cybersécurité d’une solution applicative et de son développement</span><span class="refs"><a href="#projet-helpdesk">Helpdesk</a></span></div>
+        <div class="comp"><span><span class="ok">[ok]</span>Protéger les données à caractère personnel</span><span class="refs"><a href="#projet-helpdesk">Helpdesk</a></span></div>
       </div>
     </div>
 
@@ -323,9 +348,10 @@
       <div class="win-bar"><span class="dots"><i></i><i></i><i></i></span><span>stack.json</span></div>
       <div class="win-body">
 <pre class="code">{
-  <span class="k">"front"</span>: [<span class="s">"HTML"</span>, <span class="s">"CSS"</span>, <span class="s">"JavaScript"</span>],
-  <span class="k">"back"</span>:  [<span class="s">"PHP"</span>, <span class="s">"Symfony"</span>, <span class="s">"SQL"</span>],
-  <span class="k">"outils"</span>: [<span class="s">"Git"</span>, <span class="s">"Trello"</span>]
+  <span class="k">"front"</span>:   [<span class="s">"HTML"</span>, <span class="s">"CSS"</span>, <span class="s">"JavaScript"</span>, <span class="s">"Twig"</span>, <span class="s">"Bootstrap"</span>],
+  <span class="k">"back"</span>:    [<span class="s">"PHP"</span>, <span class="s">"Symfony"</span>, <span class="s">"Doctrine"</span>],
+  <span class="k">"donnees"</span>: [<span class="s">"SQL"</span>, <span class="s">"MariaDB"</span>, <span class="s">"MySQL"</span>],
+  <span class="k">"outils"</span>:  [<span class="s">"Git"</span>, <span class="s">"GitHub"</span>, <span class="s">"Docker"</span>, <span class="s">"PHPUnit"</span>, <span class="s">"Trello"</span>]
 }</pre>
       </div>
     </div>
@@ -341,6 +367,27 @@
     </div>
 
     <div class="project-grid" id="projectGrid">
+      <article class="project win" id="projet-helpdesk" data-category="ecole">
+        <div class="win-bar"><span class="dots"><i></i><i></i><i></i></span><span>projets/ecole/helpdesk</span></div>
+        <div class="win-body">
+          <span class="tag"># projet principal — épreuves E5 / E6</span>
+          <h3>Helpdesk — Gestion de tickets d’assistance</h3>
+          <p>Application web interne inspirée des outils de helpdesk du marché (GLPI, Freshservice). Les demandes d’assistance arrivaient par téléphone ou par e-mail, sans suivi : ici, chaque demande devient un ticket, pris en charge par un technicien et suivi de sa création jusqu’à sa résolution.</p>
+          <ul class="feat">
+            <li><b>Comptes et rôles :</b> inscription, connexion, trois rôles (utilisateur, technicien, administrateur).</li>
+            <li><b>Tickets :</b> création, consultation, modification, avec catégorie, priorité et statut (Ouvert, En cours, Résolu, Fermé).</li>
+            <li><b>Suivi :</b> fil de discussion entre le demandeur et le support, prise en charge et attribution à un technicien.</li>
+            <li><b>Tableau de bord :</b> compteurs par statut, tickets non attribués, filtres par statut, priorité, catégorie et attribution.</li>
+            <li><b>Corbeille :</b> suppression logique d’un ticket, restauration ou suppression définitive par l’administrateur.</li>
+            <li><b>Données :</b> base MariaDB de 4 tables (user, category, ticket, comment), créée et modifiée par des migrations Doctrine.</li>
+            <li><b>Sécurité :</b> mots de passe hashés, accès contrôlé par rôle, protection CSRF, validation des saisies côté serveur.</li>
+            <li><b>Environnement :</b> 3 conteneurs Docker (PHP + Apache, MariaDB, phpMyAdmin), tests automatiques avec PHPUnit, code versionné avec Git.</li>
+          </ul>
+          <div class="stack"><span>Symfony 7.4</span><span>PHP 8.3</span><span>MariaDB</span><span>Doctrine</span><span>Twig</span><span>Bootstrap 5</span><span>Docker</span><span>PHPUnit</span><span>Git</span></div>
+          <div class="links"><a href="https://github.com/maxime7606/helpdesk" target="_blank" rel="noopener">→ code source sur GitHub</a></div>
+        </div>
+      </article>
+
       <article class="project win" id="projet-planet" data-category="ecole">
         <div class="win-bar"><span class="dots"><i></i><i></i><i></i></span><span>projets/ecole/planet</span></div>
         <div class="win-body">
@@ -371,7 +418,7 @@
       <!--
         Pour ajouter un projet, duplique ce bloc et modifie data-category en "ecole" ou "alternance" :
 
-        <article class="project win" data-category="alternance">
+        <article class="project win" id="projet-nom" data-category="alternance">
           <div class="win-bar"><span class="dots"><i></i><i></i><i></i></span><span>projets/alternance/nom-du-projet</span></div>
           <div class="win-body">
             <h3>Nom du projet</h3>
