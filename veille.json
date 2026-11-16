@@ -1,7 +1,13 @@
 {
-  "maj": "2026-11-15T13:05:45.783197+00:00",
+  "maj": "2026-11-16T14:12:14.237389+00:00",
   "categories": {
     "dev": [
+      {
+        "titre": "New in Symfony 8.2: Tui Improvements",
+        "lien": "https://symfony.com/blog/new-in-symfony-8-2-tui-improvements?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
+        "source": "Symfony",
+        "date": "2026-11-16T08:26:00+00:00"
+      },
       {
         "titre": "OpenAI lance Daybreak, des agents IA qui piratent vos applis pour les sécuriser",
         "lien": "https://korben.info/openai-lance-daybreak-des-agents-ia-qui-piratent-vos-applis-pour-les-securiser.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
@@ -25,76 +31,70 @@
         "lien": "https://symfony.com/blog/new-in-symfony-8-2-link-sets-and-link-templates?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
         "source": "Symfony",
         "date": "2026-11-14T08:03:00+00:00"
-      },
-      {
-        "titre": "Stela - Le retour du Hackintosh ?",
-        "lien": "https://korben.info/stela-macos-pc-x86-hackintosh.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
-        "source": "Korben",
-        "date": "2026-11-14T01:03:37+00:00"
       }
     ],
     "cyber": [
       {
-        "titre": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
-        "lien": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
-        "source": "The Hacker News",
-        "date": "2026-11-15T11:27:31+00:00"
-      },
-      {
-        "titre": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
-        "lien": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
-        "source": "The Hacker News",
-        "date": "2026-11-15T08:22:04+00:00"
-      },
-      {
-        "titre": "Cursor confirms security breach led to malicious Claude Code extension",
-        "lien": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+        "titre": "Google warns that fully-automated AI attacks are coming soon",
+        "lien": "https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon/",
         "source": "BleepingComputer",
-        "date": "2026-11-14T17:27:25+00:00"
+        "date": "2026-11-16T14:00:00+00:00"
       },
       {
-        "titre": "US disrupts North Korean campaign behind $400 million crypto theft",
-        "lien": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
+        "titre": "Microsoft: Windows Server 2016 reaches end of support in 60 days",
+        "lien": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-60-days/",
         "source": "BleepingComputer",
-        "date": "2026-11-14T15:15:49+00:00"
+        "date": "2026-11-16T12:53:18+00:00"
       },
       {
-        "titre": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
-        "lien": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+        "titre": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
+        "lien": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
         "source": "The Hacker News",
-        "date": "2026-11-14T12:38:35+00:00"
+        "date": "2026-11-16T12:34:21+00:00"
+      },
+      {
+        "titre": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
+        "lien": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
+        "source": "The Hacker News",
+        "date": "2026-11-16T12:33:18+00:00"
+      },
+      {
+        "titre": "Australian retail giant Coles investigates cybersecurity incident",
+        "lien": "https://www.bleepingcomputer.com/news/security/australian-retail-giant-coles-investigates-cybersecurity-incident/",
+        "source": "BleepingComputer",
+        "date": "2026-11-16T11:18:09+00:00"
       }
     ],
     "composants": [
       {
-        "titre": "Ils vont monter à bord, mais les astronautes n’ont pas le droit de voir la fusée : le rituel le plus paradoxal des lancements Soyouz",
-        "lien": "https://www.numerama.com/sciences/2371751-ils-vont-monter-a-bord-mais-les-astronautes-nont-pas-le-droit-de-la-voir-le-rituel-le-plus-paradoxal-des-lancements-soyouz.html",
+        "titre": "Les manettes DualSense et DualSense Edge pour PS5 sont bradées pendant le Black Friday",
+        "lien": "https://www.numerama.com/tech/2375289-les-manettes-dualsense-et-dualsense-edge-pour-ps5-sont-bradees-pendant-le-black-friday.html",
         "source": "Numerama",
-        "date": "2026-11-15T13:01:00+00:00"
+        "date": "2026-11-16T14:07:24+00:00"
       },
       {
-        "titre": "Modified Ender 3 becomes a $450 bioprinter for 3D printing engineered living materials",
-        "lien": "https://www.tomshardware.com/3d-printing/university-of-rochester-researchers-made-a-3d-bioprinter-from-a-modified-ender-3-usd450-bioprinter-makes-engineered-living-material-research-accessible",
-        "source": "Tom's Hardware",
-        "date": "2026-11-15T13:00:00+00:00"
+        "titre": "Des employés du support PlayStation revendraient vos comptes à des hackers : des accusations graves à quelques jours de la sortie de GTA 6",
+        "lien": "https://www.numerama.com/cyberguerre/2375419-des-employes-du-support-playstation-revendraient-vos-comptes-a-des-hackers-des-accusations-graves-a-quelques-jours-de-la-sortie-de-gta-6.html",
+        "source": "Numerama",
+        "date": "2026-11-16T14:05:35+00:00"
       },
       {
-        "titre": "Dev hacks Coway air purifier to cut it off from the cloud",
-        "lien": "https://www.tomshardware.com/tech-industry/cyber-security/dev-hacks-coway-air-purifier-to-cut-it-off-from-the-cloud-now-runs-locally-in-home-assistant-fan-downloads-the-certificate-over-plain-http-letting-a-home-server-stand-in-for-coways",
-        "source": "Tom's Hardware",
-        "date": "2026-11-15T12:30:00+00:00"
+        "titre": "Quand 2 Tesla sont face à face sur une route de montagne, le FSD oublie la priorité",
+        "lien": "https://www.numerama.com/vroom/2375243-quand-2-tesla-sont-face-a-face-sur-une-route-de-montagne-le-fsd-oublie-la-priorite.html",
+        "source": "Numerama",
+        "date": "2026-11-16T14:05:00+00:00"
       },
       {
-        "titre": "Elon Musk signs petition to reinstate Jensen Huang as Nvidia CEO",
-        "lien": "https://www.tomshardware.com/tech-industry/elon-musk-signs-petition-to-reinstate-jensen-huang-as-nvidia-ceo-over-130-000-sign-online-petition-but-not-all-nvidians-support-jensens-return",
+        "titre": "Unlock Tom's Hardware Premium's SuperComputer 2026 coverage for free — sign up for an account to read detailed reports from the show",
+        "lien": "https://www.tomshardware.com/tech-industry/unlock-toms-hardware-premiums-supercomputer-2026-coverage-for-free-sign-up-for-an-account-to-read-detailed-reports-from-the-show",
         "source": "Tom's Hardware",
-        "date": "2026-11-15T12:00:00+00:00"
+        "date": "2026-11-16T14:00:00+00:00"
       },
       {
-        "titre": "Dr. Lisa Su graces the opening of Micro Center's new Austin store",
-        "lien": "https://www.tomshardware.com/desktops/pc-building/dr-lisa-su-graces-the-opening-of-micro-centers-new-austin-store-amd-ceo-meets-with-gamers-autographs-a-9070-xt-gpu-and-hands-out-300-swag-bags",
+        "titre": "Amazon’s Starlink rival sees major setback after 40 satellites destroyed in rocket failure",
+        "lien": "https://www.tomshardware.com/tech-industry/space/amazons-starlink-rival-sees-major-setback-after-40-satellites-destroyed-in-rocket-failure-anomaly-occurred-10-minutes-after-the-vulcan-launch-on-sunday",
         "source": "Tom's Hardware",
-        "date": "2026-11-15T11:30:00+00:00"
+        "date": "2026-11-16T13:30:00+00:00"
       }
     ]
   }
