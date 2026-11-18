@@ -1,7 +1,19 @@
 {
-  "maj": "2026-11-17T15:04:42.430406+00:00",
+  "maj": "2026-11-18T14:43:56.207483+00:00",
   "categories": {
     "dev": [
+      {
+        "titre": "New in Symfony 8.2: Custom Property Accessors",
+        "lien": "https://symfony.com/blog/new-in-symfony-8-2-custom-property-accessors?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
+        "source": "Symfony",
+        "date": "2026-11-18T08:09:00+00:00"
+      },
+      {
+        "titre": "Symfony is now a CVE Numbering Authority",
+        "lien": "https://symfony.com/blog/symfony-is-now-a-cve-numbering-authority?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
+        "source": "Symfony",
+        "date": "2026-11-17T16:51:00+00:00"
+      },
       {
         "titre": "New in Symfony 8.2: Smarter Controller Arguments",
         "lien": "https://symfony.com/blog/new-in-symfony-8-2-smarter-controller-arguments?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
@@ -19,82 +31,70 @@
         "lien": "https://symfony.com/blog/symfonycon-warsaw-2026-giving-ai-agents-a-durable-memory?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
         "source": "Symfony",
         "date": "2026-11-16T13:30:00+00:00"
-      },
-      {
-        "titre": "New in Symfony 8.2: Tui Improvements",
-        "lien": "https://symfony.com/blog/new-in-symfony-8-2-tui-improvements?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
-        "source": "Symfony",
-        "date": "2026-11-16T08:26:00+00:00"
-      },
-      {
-        "titre": "OpenAI lance Daybreak, des agents IA qui piratent vos applis pour les sécuriser",
-        "lien": "https://korben.info/openai-lance-daybreak-des-agents-ia-qui-piratent-vos-applis-pour-les-securiser.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
-        "source": "Korben",
-        "date": "2026-11-15T09:26:21+00:00"
       }
     ],
     "cyber": [
       {
-        "titre": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
-        "lien": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
+        "titre": "New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years",
+        "lien": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html",
         "source": "The Hacker News",
-        "date": "2026-11-17T12:25:06+00:00"
+        "date": "2026-11-18T12:28:30+00:00"
       },
       {
-        "titre": "Researchers Detail iPhone Flaw That Let Apps Record Audio Despite Denied Microphone Permission",
-        "lien": "https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html",
+        "titre": "AI Pentesting Checklist for Web Apps: 15 Questions to Ask Before Choosing a Vendor",
+        "lien": "https://thehackernews.com/2026/11/ai-pentesting-checklist-for-web-apps-15.html",
         "source": "The Hacker News",
-        "date": "2026-11-17T12:14:36+00:00"
+        "date": "2026-11-18T12:15:00+00:00"
       },
       {
-        "titre": "New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels",
-        "lien": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html",
+        "titre": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
+        "lien": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
         "source": "The Hacker News",
-        "date": "2026-11-17T11:20:18+00:00"
+        "date": "2026-11-18T11:55:49+00:00"
       },
       {
-        "titre": "Microsoft testing Remote Lock for lost or stolen Windows devices",
-        "lien": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-remote-lock-for-lost-or-stolen-windows-devices/",
+        "titre": "Dizigom illegal streaming service with 21M monthly visits shuts down",
+        "lien": "https://www.bleepingcomputer.com/news/security/dizigom-illegal-streaming-service-with-21m-monthly-visits-shuts-down/",
         "source": "BleepingComputer",
-        "date": "2026-11-17T11:19:51+00:00"
+        "date": "2026-11-18T11:50:25+00:00"
       },
       {
-        "titre": "Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks",
-        "lien": "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html",
+        "titre": "Quality Isn’t The Main Worry About AI Pentesting — Data Privacy and Production Safety Are",
+        "lien": "https://thehackernews.com/2026/11/quality-isnt-main-worry-about-ai.html",
         "source": "The Hacker News",
-        "date": "2026-11-17T11:07:31+00:00"
+        "date": "2026-11-18T11:03:57+00:00"
       }
     ],
     "composants": [
       {
-        "titre": "Tapez « Robert Pattinson » dans Google",
-        "lien": "https://www.numerama.com/pop-culture/2376779-tapez-robert-pattinson-dans-google.html",
+        "titre": "Si vous voulez un robot cuiseur avant les repas de fêtes, Lidl fait baisser son Monsieur Cuisine Smart",
+        "lien": "https://www.numerama.com/tech/2377677-si-vous-voulez-un-robot-cuiseur-avant-les-repas-de-fetes-lidl-fait-baisser-son-monsieur-cuisine-smart.html",
         "source": "Numerama",
-        "date": "2026-11-17T15:00:57+00:00"
+        "date": "2026-11-18T14:38:00+00:00"
       },
       {
-        "titre": "Taipei 101 lit up in support of Jensen Huang",
-        "lien": "https://www.tomshardware.com/tech-industry/big-tech/taipei-101-lit-up-in-support-of-jensen-huang-skyscraper-adorned-with-messages-of-support-following-resignation-as-nvidia-ceo",
+        "titre": "Elon Musk’s SpaceXAI suffers chemical spill at Mississippi AI data center",
+        "lien": "https://www.tomshardware.com/tech-industry/data-centers/elon-musks-spacexai-suffers-chemical-spill-at-mississippi-ai-data-center-up-to-6-000-gallons-of-propylene-glycol-heat-transfer-fluid-lost-environment-agency-says-no-threat-to-residents",
         "source": "Tom's Hardware",
-        "date": "2026-11-17T15:00:00+00:00"
+        "date": "2026-11-18T14:30:00+00:00"
       },
       {
-        "titre": "Panne Microsoft : on sait enfin pourquoi Teams s’en est sorti alors qu’Outlook sombrait",
-        "lien": "https://www.numerama.com/tech/2376825-panne-microsoft-on-sait-enfin-pourquoi-teams-sen-est-sorti-alors-quoutlook-sombrait.html",
+        "titre": "Le vrai frein à l’achat d’une voiture électrique n’est pas celui que l’on croit",
+        "lien": "https://www.numerama.com/vroom/2377933-le-vrai-frein-a-lachat-dune-voiture-electrique-nest-pas-celui-que-lon-croit.html",
         "source": "Numerama",
-        "date": "2026-11-17T14:44:19+00:00"
+        "date": "2026-11-18T14:25:07+00:00"
       },
       {
-        "titre": "Voyager 1 atteint un jour-lumière de la Terre : à 26 milliards de km de la Terre, cela aurait pris 28 250 ans en voiture",
-        "lien": "https://www.numerama.com/sciences/2376733-voyager-1-atteint-un-jour-lumiere-de-la-terre-a-26-milliards-de-km-de-la-terre-cela-aurait-pris-28-250-ans-en-voiture.html",
-        "source": "Numerama",
-        "date": "2026-11-17T14:32:57+00:00"
-      },
-      {
-        "titre": "AMD attacks Nvidia's FP64 emulation at SC26, touts native double-precision on Instinct MI430X — says Ozaki schemes fit less than 10% of HPC workloads and triple memory use and emulated FP64 is a poor fit for many HPC workloads",
-        "lien": "https://www.tomshardware.com/pc-components/gpus/amd-attacks-nvidias-fp64-emulation-at-sc26-touts-native-double-precision-on-instinct-mi430x-says-ozaki-schemes-fit-less-than-10-percent-of-hpc-workloads-and-triple-memory-use-and-emulated-fp64-is-a-poor-fit-for-many-hpc-workloads",
+        "titre": "The Downfall of Jensen Huang — a timeline of allegations and scandals that brought down the king of AI infrastructure",
+        "lien": "https://www.tomshardware.com/tech-industry/the-downfall-of-jensen-huang",
         "source": "Tom's Hardware",
-        "date": "2026-11-17T14:30:00+00:00"
+        "date": "2026-11-18T14:10:32+00:00"
+      },
+      {
+        "titre": "Global OLED monitor shipments doubled year-over-year in Q3 2026",
+        "lien": "https://www.tomshardware.com/monitors/gaming-monitors/global-oled-monitor-shipments-doubled-year-over-year-in-q3-2026-gamers-turn-to-display-upgrades-as-technology-gets-cheaper-and-ai-squeezes-components",
+        "source": "Tom's Hardware",
+        "date": "2026-11-18T14:00:00+00:00"
       }
     ]
   }
