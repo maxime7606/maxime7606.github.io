@@ -132,7 +132,15 @@
   .news small { display: block; color: var(--muted); font-size: 0.78rem; }
   .note { margin-top: 1rem; }
 
-  /* ===== 9. CONTACT ===== */
+  /* ===== 9. PARCOURS ===== */
+  .etape { display: flex; gap: 1.1rem; padding: 0.9rem 0; border-bottom: 1px dashed var(--border); }
+  .etape:last-child { border-bottom: none; }
+  .etape .date { flex-shrink: 0; width: 6.5rem; padding-top: 0.15rem; color: var(--green); font-size: 0.82rem; }
+  .etape h3 { margin: 0 0 0.2rem; font-size: 1rem; }
+  .etape p { margin: 0; color: var(--muted); font-size: 0.92rem; }
+  .etape .en-cours { color: var(--amber); }
+
+  /* ===== 10. CONTACT ===== */
   .contact div { display: flex; align-items: center; gap: 0.7rem; padding: 0.35rem 0; color: var(--muted); font-size: 0.92rem; }
   .contact svg { flex-shrink: 0; width: 20px; height: 20px; fill: none; stroke: var(--accent); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
   .contact .key { width: 4.6rem; flex-shrink: 0; color: var(--green); }
@@ -163,6 +171,7 @@
   <nav>
     <a class="logo" href="#">maxime@portfolio:~$</a>
     <ul class="menu" id="menu">
+      <li><a href="#parcours">./parcours</a></li>
       <li><a href="#competences">./competences</a></li>
       <li><a href="#projets">./projets</a></li>
       <li><a href="#veille">./veille</a></li>
@@ -188,8 +197,40 @@
         <p class="cmd">cat status.txt</p>
         <p class="out">Je conçois et je développe des applications, du cahier des charges jusqu’au code.<br><span class="dim">Dernier projet :</span> <span class="hl">Helpdesk</span>, une application de gestion de tickets d’assistance en Symfony.</p>
         <p class="cmd">ls sections/</p>
-        <p class="out"><a href="#projets">projets/</a><a href="#competences">competences/</a><a href="#veille">veille/</a><a href="#contact">contact/</a></p>
+        <p class="out"><a href="#parcours">parcours/</a><a href="#projets">projets/</a><a href="#competences">competences/</a><a href="#veille">veille/</a><a href="#contact">contact/</a></p>
         <p class="cmd"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PARCOURS ===================== -->
+  <!-- Une étape = la date à gauche, le diplôme ou le poste à droite. La plus récente en haut. -->
+  <section id="parcours">
+    <h2>Parcours</h2>
+    <div class="win">
+      <div class="win-bar">parcours.log</div>
+      <div class="win-body">
+        <div class="etape">
+          <span class="date en-cours">2025 — 2027</span>
+          <div>
+            <h3>BTS SIO option SLAM</h3>
+            <p>École IRIS — en alternance. Services informatiques aux organisations, option Solutions logicielles et applications métiers (développement).</p>
+          </div>
+        </div>
+        <div class="etape">
+          <span class="date en-cours">2025 — 2027</span>
+          <div>
+            <h3>Alternance — CERP Asteras Rouen</h3>
+            <p>Coopérative de distribution pharmaceutique.</p>
+          </div>
+        </div>
+        <div class="etape">
+          <span class="date">Avant 2025</span>
+          <div>
+            <h3>Bac Pro Systèmes Numériques (SN)</h3>
+            <p>Lycée La Châtaigneraie — Le Mesnil-Esnard. Bases en réseaux, matériel informatique et électronique.</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
