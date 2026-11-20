@@ -1,100 +1,100 @@
 {
-  "maj": "2026-11-19T14:52:06.616476+00:00",
+  "maj": "2026-11-20T14:32:33.987101+00:00",
   "categories": {
     "dev": [
       {
-        "titre": "SymfonyCon Warsaw 2026: Nobody typed this: reviewing agentic code",
-        "lien": "https://symfony.com/blog/symfonycon-warsaw-2026-nobody-typed-this-reviewing-agentic-code?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
+        "titre": "SymfonyCon Warsaw 2026: Form Component Through the Ages: History of (not so) Black Magic",
+        "lien": "https://symfony.com/blog/symfonycon-warsaw-2026-form-component-through-the-ages-history-of-not-so-black-magic?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
         "source": "Symfony",
-        "date": "2026-11-19T13:30:00+00:00"
+        "date": "2026-11-20T13:30:00+00:00"
       },
       {
-        "titre": "Quelqu'un vit peut-être votre vie en ce moment. Comment ne plus perdre votre identité ? #sponso",
-        "lien": "https://korben.info/comment-ne-plus-perdre-votre-identite.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+        "titre": "Signal bloque les captures pour tenir Gemini et Siri à distance",
+        "lien": "https://korben.info/signal-bloque-captures-ecran-ia.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
         "source": "Korben",
-        "date": "2026-11-19T10:21:33+00:00"
+        "date": "2026-11-20T10:36:02+00:00"
       },
       {
-        "titre": "Unreal Tournament 2004 est de retour !",
-        "lien": "https://korben.info/unreal-tournament-2004-navigateur.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+        "titre": "Black Friday pCloud - Plans à vie, Photos AI, Docs et NAS #sponso",
+        "lien": "https://korben.info/pcloud-black-friday-2026.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
         "source": "Korben",
-        "date": "2026-11-19T08:47:16+00:00"
+        "date": "2026-11-20T09:09:51+00:00"
       },
       {
-        "titre": "Dreamcart - Vos cartouches N64 sur la Dreamcast",
-        "lien": "https://korben.info/dreamcast-cartouches-n64.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+        "titre": "Youtubeurs engagés - L'Arcom impose un temps de parole",
+        "lien": "https://korben.info/arcom-pluralisme-createurs-presidentielle.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
         "source": "Korben",
-        "date": "2026-11-19T08:29:34+00:00"
+        "date": "2026-11-20T08:56:52+00:00"
       },
       {
-        "titre": "New in Symfony 8.2: Lock Improvements",
-        "lien": "https://symfony.com/blog/new-in-symfony-8-2-lock-improvements?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
+        "titre": "New in Symfony 8.2: Routing Improvements",
+        "lien": "https://symfony.com/blog/new-in-symfony-8-2-routing-improvements?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
         "source": "Symfony",
-        "date": "2026-11-19T08:17:00+00:00"
+        "date": "2026-11-20T08:31:00+00:00"
       }
     ],
     "cyber": [
       {
-        "titre": "Drupal patches critical RCE flaw, warns exploits may surface quickly",
-        "lien": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/",
+        "titre": "N-able says recent security breach led to major service outage",
+        "lien": "https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/",
         "source": "BleepingComputer",
-        "date": "2026-11-19T13:08:08+00:00"
+        "date": "2026-11-20T13:18:36+00:00"
       },
       {
-        "titre": "Everything Is a Web Application, Including Your Firewall",
-        "lien": "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
+        "titre": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts",
+        "lien": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html",
         "source": "The Hacker News",
-        "date": "2026-11-19T11:52:23+00:00"
+        "date": "2026-11-20T12:20:00+00:00"
       },
       {
-        "titre": "Microsoft tests new Edge Lockdown Mode that disables GPU APIs",
-        "lien": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-new-edge-lockdown-mode-that-disables-gpu-apis/",
+        "titre": "Microsoft now automatically installs Windows 11 26H2 on unmanaged devices",
+        "lien": "https://www.bleepingcomputer.com/news/microsoft/microsoft-now-automatically-installs-windows-11-26h2-on-personal-and-unmanaged-pcs/",
         "source": "BleepingComputer",
-        "date": "2026-11-19T11:46:00+00:00"
+        "date": "2026-11-20T12:14:28+00:00"
       },
       {
-        "titre": "Microsoft confirms app installation, launch issues after hotpatch",
-        "lien": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-app-installation-launch-issues-after-hotpatch/",
-        "source": "BleepingComputer",
-        "date": "2026-11-19T10:35:05+00:00"
-      },
-      {
-        "titre": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
-        "lien": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
+        "titre": "The Path to AI Autonomy in the SOC",
+        "lien": "https://thehackernews.com/2026/11/the-path-to-ai-autonomy-in-soc.html",
         "source": "The Hacker News",
-        "date": "2026-11-19T09:31:26+00:00"
+        "date": "2026-11-20T12:00:00+00:00"
+      },
+      {
+        "titre": "F5 releases emergency patches for critical BIG-IP RCE flaws",
+        "lien": "https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws/",
+        "source": "BleepingComputer",
+        "date": "2026-11-20T10:57:43+00:00"
       }
     ],
     "composants": [
       {
-        "titre": "Un mois après le chaos PHP2Shell, que vaut vraiment la nouvelle alerte critique de PHP ?",
-        "lien": "https://www.numerama.com/cyberguerre/2378991-un-mois-apres-le-chaos-php2shell-que-vaut-vraiment-la-nouvelle-alerte-critique-de-php.html",
+        "titre": "Les Anneaux de pouvoir : c’est quoi le Thangorodrim, ces volcans de Tolkien où tout a mal tourné pour Galadriel",
+        "lien": "https://www.numerama.com/pop-culture/2379923-les-anneaux-de-pouvoir-cest-quoi-le-thangorodrim-ces-volcans-de-tolkien-ou-tout-a-mal-tourne-pour-galadriel.html",
         "source": "Numerama",
-        "date": "2026-11-19T14:47:06+00:00"
+        "date": "2026-11-20T14:21:00+00:00"
       },
       {
-        "titre": "GTA 6 : la carte interactive ultime pour découvrir les secrets de Leonida",
-        "lien": "https://www.numerama.com/pop-culture/2378989-gta-6-la-carte-interactive-ultime-pour-decouvrir-les-secrets-de-leonida.html",
-        "source": "Numerama",
-        "date": "2026-11-19T14:30:03+00:00"
-      },
-      {
-        "titre": "Starlink bridé, pont de Crimée détruit : l’Ukraine a trouvé un moyen ingénieux de bien diriger ses missiles",
-        "lien": "https://www.numerama.com/tech/2378957-starlink-bride-pont-de-crimee-detruit-lukraine-a-trouve-un-moyen-ingenieux-de-bien-diriger-ses-missiles.html",
-        "source": "Numerama",
-        "date": "2026-11-19T14:21:28+00:00"
-      },
-      {
-        "titre": "Supermicro sued by shareholders over claims Nvidia executive’s wife knew about illicit China sales",
-        "lien": "https://www.tomshardware.com/tech-industry/big-tech/supermicro-sued-by-shareholders-over-claims-nvidia-executives-wife-must-have-known-about-illicit-china-sales-former-chief-growth-officer-cenly-chen-is-married-to-outgoing-nvidia-vp-jay-puri",
+        "titre": "Phison details SSD with a built-in NPU and 64GB of memory that supports AI frameworks on the drive",
+        "lien": "https://www.tomshardware.com/pc-components/ssds/phison-details-ssd-with-a-built-in-npu-and-64gb-of-memory-that-supports-pytorch-and-llama-cpp-running-on-the-drive-second-design-merges-fast-pslc-cache-and-qlc-capacity-behind-one-controller",
         "source": "Tom's Hardware",
-        "date": "2026-11-19T14:00:00+00:00"
+        "date": "2026-11-20T14:00:00+00:00"
       },
       {
-        "titre": "Developer vibe codes Windows 11 alternative operating system for amd64, arm64, and riscv64 hardware",
-        "lien": "https://www.tomshardware.com/software/windows/developer-vibe-codes-windows-11-alternative-operating-system-for-amd64-arm64-and-riscv64-hardware-libernt-is-a-free-64-bit-clone-promising-reliable-stable-and-efficient-performance",
+        "titre": "La Fnac fait baisser le Nothing Phone 4a de 50 € pour le Black Friday, coque et lanière comprises",
+        "lien": "https://www.numerama.com/tech/2379693-la-fnac-fait-baisser-le-nothing-phone-4a-de-50-e-pour-le-black-friday-coque-et-laniere-comprises.html",
+        "source": "Numerama",
+        "date": "2026-11-20T14:00:00+00:00"
+      },
+      {
+        "titre": "Alerte sur Mars : Perseverance est en panne et son principal relais n’a plus que 2 mois de vie",
+        "lien": "https://www.numerama.com/sciences/2379549-alerte-sur-mars-perseverance-est-en-panne-et-son-principal-relais-na-plus-que-2-mois-de-vie.html",
+        "source": "Numerama",
+        "date": "2026-11-20T13:34:21+00:00"
+      },
+      {
+        "titre": "Thousands of vulnerable fridges patched against cyberattacks in secret operation",
+        "lien": "https://www.tomshardware.com/tech-industry/cyber-security/thousands-of-vulnerable-fridges-patched-against-cyberattacks-in-secret-operation-uk-takes-action-following-hacks-that-destroyed-food-supplies-with-50-degree-defrosting-hijack",
         "source": "Tom's Hardware",
-        "date": "2026-11-19T13:30:00+00:00"
+        "date": "2026-11-20T13:30:00+00:00"
       }
     ]
   }
