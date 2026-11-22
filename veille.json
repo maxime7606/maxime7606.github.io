@@ -1,100 +1,100 @@
 {
-  "maj": "2026-11-21T13:50:45.262110+00:00",
+  "maj": "2026-11-22T13:43:55.388552+00:00",
   "categories": {
     "dev": [
       {
-        "titre": "SymfonyCon Warsaw 2026: When vibes meets reality",
-        "lien": "https://symfony.com/blog/symfonycon-warsaw-2026-when-vibes-meets-reality?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
+        "titre": "A Week of Symfony #1038 (November 16–22, 2026)",
+        "lien": "https://symfony.com/blog/a-week-of-symfony-1038-november-16-22-2026?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
         "source": "Symfony",
-        "date": "2026-11-21T13:30:00+00:00"
+        "date": "2026-11-22T09:09:00+00:00"
       },
       {
-        "titre": "New in Symfony 8.2: Redesigned Exception Page",
-        "lien": "https://symfony.com/blog/new-in-symfony-8-2-redesigned-exception-page?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
+        "titre": "New in Symfony 8.2: New Mailer and Notifier Bridges",
+        "lien": "https://symfony.com/blog/new-in-symfony-8-2-new-mailer-and-notifier-bridges?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
         "source": "Symfony",
-        "date": "2026-11-21T08:18:00+00:00"
+        "date": "2026-11-22T08:22:00+00:00"
       },
       {
-        "titre": "ARTEX, l'IA de piratage open source qui a figé la Commission européenne",
-        "lien": "https://korben.info/artex-lia-de-piratage-open-source-qui-a-fige-la-commission-europeenne.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+        "titre": "Apple - Londres ne peut plus cacher son injonction sur iCloud",
+        "lien": "https://korben.info/apple-porte-derobee-icloud-royaume-uni.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
         "source": "Korben",
-        "date": "2026-11-20T14:50:58+00:00"
+        "date": "2026-11-21T19:40:41+00:00"
       },
       {
-        "titre": "SymfonyCon Warsaw 2026: Form Component Through the Ages: History of (not so) Black Magic",
-        "lien": "https://symfony.com/blog/symfonycon-warsaw-2026-form-component-through-the-ages-history-of-not-so-black-magic?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
-        "source": "Symfony",
-        "date": "2026-11-20T13:30:00+00:00"
-      },
-      {
-        "titre": "Signal bloque les captures pour tenir Gemini et Siri à distance",
-        "lien": "https://korben.info/signal-bloque-captures-ecran-ia.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+        "titre": "Windows NT 4.0 sur un Raspberry Pi, c'est inutile donc indispensable",
+        "lien": "https://korben.info/pint-windows-nt-raspberry-pi.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
         "source": "Korben",
-        "date": "2026-11-20T10:36:02+00:00"
+        "date": "2026-11-21T18:34:10+00:00"
+      },
+      {
+        "titre": "Plex lâche TheTVDB",
+        "lien": "https://korben.info/plex-abandonne-thetvdb.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+        "source": "Korben",
+        "date": "2026-11-21T18:19:38+00:00"
       }
     ],
     "cyber": [
       {
-        "titre": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
-        "lien": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
+        "titre": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+        "lien": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
         "source": "The Hacker News",
-        "date": "2026-11-21T11:53:07+00:00"
+        "date": "2026-11-22T05:06:55+00:00"
       },
       {
-        "titre": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
-        "lien": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
+        "titre": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+        "lien": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
         "source": "The Hacker News",
-        "date": "2026-11-21T11:05:53+00:00"
+        "date": "2026-11-22T05:03:41+00:00"
       },
       {
-        "titre": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
-        "lien": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
-        "source": "The Hacker News",
-        "date": "2026-11-21T11:03:17+00:00"
+        "titre": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
+        "lien": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
+        "source": "BleepingComputer",
+        "date": "2026-11-21T22:59:58+00:00"
       },
       {
-        "titre": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
-        "lien": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
-        "source": "The Hacker News",
-        "date": "2026-11-21T08:49:20+00:00"
+        "titre": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
+        "lien": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
+        "source": "BleepingComputer",
+        "date": "2026-11-21T18:01:58+00:00"
       },
       {
-        "titre": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
-        "lien": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
-        "source": "The Hacker News",
-        "date": "2026-11-21T08:49:13+00:00"
+        "titre": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
+        "lien": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
+        "source": "BleepingComputer",
+        "date": "2026-11-21T15:17:27+00:00"
       }
     ],
     "composants": [
       {
-        "titre": "MSI Crosshair A16 HX RTX 5070, Ryzen 9-equipped gaming laptop gets $400 discount at Amazon",
-        "lien": "https://www.tomshardware.com/laptops/gaming-laptops/msi-crosshair-a16-hx-rtx-5070-ryzen-9-equipped-gaming-laptop-gets-usd400-discount-at-amazon-system-comes-with-a-free-game-in-early-black-friday-offer",
+        "titre": "TSMC reportedly pauses shipments to Chinese designers after U.S. export rules flag decade-old 16nm and 14nm nodes",
+        "lien": "https://www.tomshardware.com/tech-industry/policy/tsmc-reportedly-pauses-shipments-to-chinese-designers-after-u-s-export-rules-flag-decade-old-16nm-and-14nm-nodes-new-bis-controls-threaten-smartphone-tv-and-automotive-chips",
         "source": "Tom's Hardware",
-        "date": "2026-11-21T13:09:06+00:00"
+        "date": "2026-11-22T13:30:00+00:00"
       },
       {
-        "titre": "Les Anneaux de pouvoir saison 3 : les petits secrets du générique, qui délaisse les énigmes cachées",
-        "lien": "https://www.numerama.com/pop-culture/2376969-les-anneaux-de-pouvoir-saison-3-les-petits-secrets-du-generique-qui-abandonne-les-enigmes-cachees.html",
+        "titre": "Logitech's accomplished MX Master 3S productivity mouse gets 24% discount",
+        "lien": "https://www.tomshardware.com/peripherals/mice/logitechs-accomplished-mx-master-3s-productivity-mouse-gets-24-percent-discount-usd75-buys-you-a-tried-and-tested-workhorse-with-killer-features",
+        "source": "Tom's Hardware",
+        "date": "2026-11-22T13:20:00+00:00"
+      },
+      {
+        "titre": "AI agents design an entirely new CPU architecture from scratch, startup claims",
+        "lien": "https://www.tomshardware.com/tech-industry/semiconductors/ai-agents-design-an-entirely-new-cpu-architecture-from-scratch-startup-claims-frostbite-posts-4-59x-the-performance-per-watt-of-an-in-order-core-in-pre-silicon-tests",
+        "source": "Tom's Hardware",
+        "date": "2026-11-22T13:00:00+00:00"
+      },
+      {
+        "titre": "« Internet cessera de fonctionner sans explication » : attention, le service Quad9 coupe en France ce mardi, vérifiez si vous l’utilisez",
+        "lien": "https://www.numerama.com/tech/2379931-internet-cessera-de-fonctionner-sans-explication-attention-le-service-quad9-coupe-en-france-ce-mardi-verifiez-si-vous-lutilisez.html",
         "source": "Numerama",
-        "date": "2026-11-21T13:02:00+00:00"
+        "date": "2026-11-22T12:31:00+00:00"
       },
       {
-        "titre": "Homelabber’s second-gen Optane build uses two RTX 3090s to run 2.8-trillion-parameter Kimi AI model at 3.11 tokens per second",
-        "lien": "https://www.tomshardware.com/tech-industry/artificial-intelligence/homelabbers-second-gen-optane-build-runs-2-8-trillion-parameter-kimi-k3-at-3-11-tokens-per-second-after-adding-two-rtx-3090s-moving-nearly-half-the-model-into-a-ram-drive-boosted-performance-by-41-percent",
+        "titre": "Moore Threads' next 'Lushan' gaming GPU could pack a record 64GB of VRAM",
+        "lien": "https://www.tomshardware.com/pc-components/gpus/moore-threads-next-lushan-gaming-gpu-could-pack-a-record-64gb-of-vram-doubles-the-rtx-5090s-32gb-lofty-claims-of-15x-gaming-and-50x-ray-tracing-over-mtt-s80",
         "source": "Tom's Hardware",
-        "date": "2026-11-21T12:00:00+00:00"
-      },
-      {
-        "titre": "Get 38% off this 20TB WD Elements external HDD in Amazon Black Friday offer — pay just 2.75 cents per GB as drive drops to $549",
-        "lien": "https://www.tomshardware.com/pc-components/external-hdds/get-38-percent-off-this-20tb-wd-elements-external-hdd-in-amazon-black-friday-offer-pay-just-2-75-cents-per-gb-as-drive-drops-to-usd549",
-        "source": "Tom's Hardware",
-        "date": "2026-11-21T11:41:10+00:00"
-      },
-      {
-        "titre": "Netgear Black Friday deals save you up to 33% on full home WiFi coverage — upgrade your gaming router, mesh WiFi setup, or wireless extenders",
-        "lien": "https://www.tomshardware.com/gift-guides-seasonal-sales/netgear-black-friday-deals-save-you-up-to-33-percent-on-full-home-wifi-coverage-upgrade-your-gaming-router-mesh-wifi-setup-or-wireless-extenders",
-        "source": "Tom's Hardware",
-        "date": "2026-11-21T11:33:43+00:00"
+        "date": "2026-11-22T12:30:00+00:00"
       }
     ]
   }
