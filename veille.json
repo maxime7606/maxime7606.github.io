@@ -1,100 +1,100 @@
 {
-  "maj": "2026-11-22T13:43:55.388552+00:00",
+  "maj": "2026-11-23T16:44:15.237964+00:00",
   "categories": {
     "dev": [
       {
-        "titre": "A Week of Symfony #1038 (November 16–22, 2026)",
-        "lien": "https://symfony.com/blog/a-week-of-symfony-1038-november-16-22-2026?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
+        "titre": "New in Symfony 8.2: Cache Improvements",
+        "lien": "https://symfony.com/blog/new-in-symfony-8-2-cache-improvements?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
         "source": "Symfony",
-        "date": "2026-11-22T09:09:00+00:00"
+        "date": "2026-11-23T16:01:00+00:00"
       },
       {
-        "titre": "New in Symfony 8.2: New Mailer and Notifier Bridges",
-        "lien": "https://symfony.com/blog/new-in-symfony-8-2-new-mailer-and-notifier-bridges?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
+        "titre": "Ultrahuman Ring Pro - cette bague connectée a (presque) remplacé mon Apple Watch",
+        "lien": "https://korben.info/ultrahuman-ring-pro-cette-bague-connectee-a-presque-remplace-mon-apple-watch.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+        "source": "Korben",
+        "date": "2026-11-23T13:51:39+00:00"
+      },
+      {
+        "titre": "Symfony UX 3.8 released: The Optimization Update",
+        "lien": "https://symfony.com/blog/symfony-ux-3-8-released-the-optimization-update?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
         "source": "Symfony",
-        "date": "2026-11-22T08:22:00+00:00"
+        "date": "2026-11-23T12:01:00+00:00"
       },
       {
-        "titre": "Apple - Londres ne peut plus cacher son injonction sur iCloud",
-        "lien": "https://korben.info/apple-porte-derobee-icloud-royaume-uni.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+        "titre": "Spelunkr - La télé où l'on ne choisit plus ce qui passe",
+        "lien": "https://korben.info/spelunkr-tv-internet-archive.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
         "source": "Korben",
-        "date": "2026-11-21T19:40:41+00:00"
+        "date": "2026-11-23T11:39:38+00:00"
       },
       {
-        "titre": "Windows NT 4.0 sur un Raspberry Pi, c'est inutile donc indispensable",
-        "lien": "https://korben.info/pint-windows-nt-raspberry-pi.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+        "titre": "RDMA sur USB4 - Le cluster d'IA de Windows enfin possible",
+        "lien": "https://korben.info/rdma-usb4-windows-ia-locale.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
         "source": "Korben",
-        "date": "2026-11-21T18:34:10+00:00"
-      },
-      {
-        "titre": "Plex lâche TheTVDB",
-        "lien": "https://korben.info/plex-abandonne-thetvdb.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
-        "source": "Korben",
-        "date": "2026-11-21T18:19:38+00:00"
+        "date": "2026-11-23T11:23:25+00:00"
       }
     ],
     "cyber": [
       {
-        "titre": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
-        "lien": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+        "titre": "⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
+        "lien": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html",
         "source": "The Hacker News",
-        "date": "2026-11-22T05:06:55+00:00"
+        "date": "2026-11-23T15:10:48+00:00"
       },
       {
-        "titre": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
-        "lien": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+        "titre": "AI Agents Are Creating a Shared Responsibility Gap",
+        "lien": "https://www.bleepingcomputer.com/news/security/ai-agents-are-creating-a-shared-responsibility-gap/",
+        "source": "BleepingComputer",
+        "date": "2026-11-23T15:00:10+00:00"
+      },
+      {
+        "titre": "Microsoft testing fix for Windows 11 Bluetooth audio quality drops",
+        "lien": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-fix-for-windows-11-bluetooth-audio-quality-drops/",
+        "source": "BleepingComputer",
+        "date": "2026-11-23T13:28:45+00:00"
+      },
+      {
+        "titre": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
+        "lien": "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html",
         "source": "The Hacker News",
-        "date": "2026-11-22T05:03:41+00:00"
+        "date": "2026-11-23T13:22:20+00:00"
       },
       {
-        "titre": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
-        "lien": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
-        "source": "BleepingComputer",
-        "date": "2026-11-21T22:59:58+00:00"
-      },
-      {
-        "titre": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
-        "lien": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
-        "source": "BleepingComputer",
-        "date": "2026-11-21T18:01:58+00:00"
-      },
-      {
-        "titre": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
-        "lien": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
-        "source": "BleepingComputer",
-        "date": "2026-11-21T15:17:27+00:00"
+        "titre": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
+        "lien": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
+        "source": "The Hacker News",
+        "date": "2026-11-23T12:41:04+00:00"
       }
     ],
     "composants": [
       {
-        "titre": "TSMC reportedly pauses shipments to Chinese designers after U.S. export rules flag decade-old 16nm and 14nm nodes",
-        "lien": "https://www.tomshardware.com/tech-industry/policy/tsmc-reportedly-pauses-shipments-to-chinese-designers-after-u-s-export-rules-flag-decade-old-16nm-and-14nm-nodes-new-bis-controls-threaten-smartphone-tv-and-automotive-chips",
-        "source": "Tom's Hardware",
-        "date": "2026-11-22T13:30:00+00:00"
-      },
-      {
-        "titre": "Logitech's accomplished MX Master 3S productivity mouse gets 24% discount",
-        "lien": "https://www.tomshardware.com/peripherals/mice/logitechs-accomplished-mx-master-3s-productivity-mouse-gets-24-percent-discount-usd75-buys-you-a-tried-and-tested-workhorse-with-killer-features",
-        "source": "Tom's Hardware",
-        "date": "2026-11-22T13:20:00+00:00"
-      },
-      {
-        "titre": "AI agents design an entirely new CPU architecture from scratch, startup claims",
-        "lien": "https://www.tomshardware.com/tech-industry/semiconductors/ai-agents-design-an-entirely-new-cpu-architecture-from-scratch-startup-claims-frostbite-posts-4-59x-the-performance-per-watt-of-an-in-order-core-in-pre-silicon-tests",
-        "source": "Tom's Hardware",
-        "date": "2026-11-22T13:00:00+00:00"
-      },
-      {
-        "titre": "« Internet cessera de fonctionner sans explication » : attention, le service Quad9 coupe en France ce mardi, vérifiez si vous l’utilisez",
-        "lien": "https://www.numerama.com/tech/2379931-internet-cessera-de-fonctionner-sans-explication-attention-le-service-quad9-coupe-en-france-ce-mardi-verifiez-si-vous-lutilisez.html",
+        "titre": "Pas d’usine, des dettes et du maïs : le fiasco de la supercar chinoise Hongqi S9",
+        "lien": "https://www.numerama.com/vroom/2382947-pas-dusine-des-dettes-et-du-mais-le-fiasco-de-la-supercar-chinoise-hongqi-s9.html",
         "source": "Numerama",
-        "date": "2026-11-22T12:31:00+00:00"
+        "date": "2026-11-23T16:39:45+00:00"
       },
       {
-        "titre": "Moore Threads' next 'Lushan' gaming GPU could pack a record 64GB of VRAM",
-        "lien": "https://www.tomshardware.com/pc-components/gpus/moore-threads-next-lushan-gaming-gpu-could-pack-a-record-64gb-of-vram-doubles-the-rtx-5090s-32gb-lofty-claims-of-15x-gaming-and-50x-ray-tracing-over-mtt-s80",
+        "titre": "GTA 6 reçoit sa première mise à jour depuis son lancement : quelles sont les nouveautés ?",
+        "lien": "https://www.numerama.com/pop-culture/2383017-gta-6-recoit-sa-premiere-mise-a-jour-depuis-son-lancement-quelles-sont-les-nouveautes.html",
+        "source": "Numerama",
+        "date": "2026-11-23T16:32:54+00:00"
+      },
+      {
+        "titre": "3D printer that promises simultaneous printing from all four heads gets $500,000 in crowdfunding",
+        "lien": "https://www.tomshardware.com/3d-printing/3d-printer-that-promises-simultaneous-printing-from-all-four-heads-gets-usd500-000-in-crowdfunding-four-printhead-co-print-quadro-msrp-set-at-just-usd899-promises-reduced-waste-and-faster-printing",
         "source": "Tom's Hardware",
-        "date": "2026-11-22T12:30:00+00:00"
+        "date": "2026-11-23T16:30:59+00:00"
+      },
+      {
+        "titre": "GTA 6 : nudistes, klaxons et pélicans : un ornithologue raconte sa traque des 60 espèces d’oiseaux",
+        "lien": "https://www.numerama.com/pop-culture/2382919-gta-6-nudistes-klaxons-et-pelicans-un-ornithologue-raconte-sa-traque-des-60-especes-doiseaux.html",
+        "source": "Numerama",
+        "date": "2026-11-23T16:30:00+00:00"
+      },
+      {
+        "titre": "Save $2,000 on this sick Corsair RTX 5090 prebuilt gaming PC this Black Friday week",
+        "lien": "https://www.tomshardware.com/desktops/gaming-pcs/save-usd2-000-on-this-sick-corsair-rtx-5090-prebuilt-gaming-pc-this-black-friday-week-awesome-rig-includes-9800x3d-power-64gb-of-ram-and-2tb-storage",
+        "source": "Tom's Hardware",
+        "date": "2026-11-23T16:23:32+00:00"
       }
     ]
   }
