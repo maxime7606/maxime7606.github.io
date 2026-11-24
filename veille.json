@@ -1,100 +1,100 @@
 {
-  "maj": "2026-11-23T16:44:15.237964+00:00",
+  "maj": "2026-11-24T16:39:41.806974+00:00",
   "categories": {
     "dev": [
       {
-        "titre": "New in Symfony 8.2: Cache Improvements",
-        "lien": "https://symfony.com/blog/new-in-symfony-8-2-cache-improvements?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
+        "titre": "Twig 4.0.0-beta1 released",
+        "lien": "https://symfony.com/blog/twig-4-0-0-beta1-released?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
         "source": "Symfony",
-        "date": "2026-11-23T16:01:00+00:00"
+        "date": "2026-11-24T13:34:00+00:00"
       },
       {
-        "titre": "Ultrahuman Ring Pro - cette bague connectée a (presque) remplacé mon Apple Watch",
-        "lien": "https://korben.info/ultrahuman-ring-pro-cette-bague-connectee-a-presque-remplace-mon-apple-watch.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
-        "source": "Korben",
-        "date": "2026-11-23T13:51:39+00:00"
-      },
-      {
-        "titre": "Symfony UX 3.8 released: The Optimization Update",
-        "lien": "https://symfony.com/blog/symfony-ux-3-8-released-the-optimization-update?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
+        "titre": "Twig 3.31.1 released",
+        "lien": "https://symfony.com/blog/twig-3-31-1-released?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
         "source": "Symfony",
-        "date": "2026-11-23T12:01:00+00:00"
+        "date": "2026-11-24T12:34:00+00:00"
       },
       {
-        "titre": "Spelunkr - La télé où l'on ne choisit plus ce qui passe",
-        "lien": "https://korben.info/spelunkr-tv-internet-archive.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
-        "source": "Korben",
-        "date": "2026-11-23T11:39:38+00:00"
+        "titre": "CVE-2026-133773 Unbounded Converter Memoisation in twig/markdown-extra Keyed on Template-Controlled Options",
+        "lien": "https://symfony.com/blog/cve-2026-133773-unbounded-converter-memoisation-in-twig-markdown-extra-keyed-on-template-controlled-options?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
+        "source": "Symfony",
+        "date": "2026-11-24T11:54:00+00:00"
       },
       {
-        "titre": "RDMA sur USB4 - Le cluster d'IA de Windows enfin possible",
-        "lien": "https://korben.info/rdma-usb4-windows-ia-locale.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
-        "source": "Korben",
-        "date": "2026-11-23T11:23:25+00:00"
+        "titre": "CVE-2026-133772 Sandbox Tag Allow-List Bypass via the Branch of a `guard` Tag That Isn't Selected",
+        "lien": "https://symfony.com/blog/cve-2026-133772-sandbox-tag-allow-list-bypass-via-the-branch-of-a-guard-tag-that-isn-t-selected?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
+        "source": "Symfony",
+        "date": "2026-11-24T11:54:00+00:00"
+      },
+      {
+        "titre": "CVE-2026-133771 Missing autoescaping for a variable named like a macro import alias of another scope",
+        "lien": "https://symfony.com/blog/cve-2026-133771-missing-autoescaping-for-a-variable-named-like-a-macro-import-alias-of-another-scope?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
+        "source": "Symfony",
+        "date": "2026-11-24T11:54:00+00:00"
       }
     ],
     "cyber": [
       {
-        "titre": "⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
-        "lien": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html",
-        "source": "The Hacker News",
-        "date": "2026-11-23T15:10:48+00:00"
-      },
-      {
-        "titre": "AI Agents Are Creating a Shared Responsibility Gap",
-        "lien": "https://www.bleepingcomputer.com/news/security/ai-agents-are-creating-a-shared-responsibility-gap/",
+        "titre": "ShinyHunters claims to return after FBI arrests, uses old PGP keys as proof",
+        "lien": "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/",
         "source": "BleepingComputer",
-        "date": "2026-11-23T15:00:10+00:00"
+        "date": "2026-11-24T16:30:19+00:00"
       },
       {
-        "titre": "Microsoft testing fix for Windows 11 Bluetooth audio quality drops",
-        "lien": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-fix-for-windows-11-bluetooth-audio-quality-drops/",
+        "titre": "European Commission confirms data theft in EU Academy breach",
+        "lien": "https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-theft-in-eu-academy-breach/",
         "source": "BleepingComputer",
-        "date": "2026-11-23T13:28:45+00:00"
+        "date": "2026-11-24T16:22:44+00:00"
       },
       {
-        "titre": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
-        "lien": "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html",
-        "source": "The Hacker News",
-        "date": "2026-11-23T13:22:20+00:00"
+        "titre": "Hackers compromise Check Point Servers in 22 organizations",
+        "lien": "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/",
+        "source": "BleepingComputer",
+        "date": "2026-11-24T16:15:23+00:00"
       },
       {
-        "titre": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
-        "lien": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
-        "source": "The Hacker News",
-        "date": "2026-11-23T12:41:04+00:00"
+        "titre": "Police disrupt 57 illegal streaming services with 7.3 million visits",
+        "lien": "https://www.bleepingcomputer.com/news/security/police-disrupt-57-illegal-streaming-services-with-73-million-visits/",
+        "source": "BleepingComputer",
+        "date": "2026-11-24T15:10:10+00:00"
+      },
+      {
+        "titre": "From Vulnerability Noise to Resilience: Rethinking Security in the AI Era",
+        "lien": "https://www.bleepingcomputer.com/news/security/from-vulnerability-noise-to-resilience-rethinking-security-in-the-ai-era/",
+        "source": "BleepingComputer",
+        "date": "2026-11-24T15:01:11+00:00"
       }
     ],
     "composants": [
       {
-        "titre": "Pas d’usine, des dettes et du maïs : le fiasco de la supercar chinoise Hongqi S9",
-        "lien": "https://www.numerama.com/vroom/2382947-pas-dusine-des-dettes-et-du-mais-le-fiasco-de-la-supercar-chinoise-hongqi-s9.html",
-        "source": "Numerama",
-        "date": "2026-11-23T16:39:45+00:00"
-      },
-      {
-        "titre": "GTA 6 reçoit sa première mise à jour depuis son lancement : quelles sont les nouveautés ?",
-        "lien": "https://www.numerama.com/pop-culture/2383017-gta-6-recoit-sa-premiere-mise-a-jour-depuis-son-lancement-quelles-sont-les-nouveautes.html",
-        "source": "Numerama",
-        "date": "2026-11-23T16:32:54+00:00"
-      },
-      {
-        "titre": "3D printer that promises simultaneous printing from all four heads gets $500,000 in crowdfunding",
-        "lien": "https://www.tomshardware.com/3d-printing/3d-printer-that-promises-simultaneous-printing-from-all-four-heads-gets-usd500-000-in-crowdfunding-four-printhead-co-print-quadro-msrp-set-at-just-usd899-promises-reduced-waste-and-faster-printing",
+        "titre": "Saudi OpenAI eavesdropper who bugged company office had hundreds of private recordings",
+        "lien": "https://www.tomshardware.com/tech-industry/artificial-intelligence/saudi-openai-eavesdropper-who-bugged-company-office-had-hundreds-of-private-recordings-was-in-frequent-communication-with-saudi-government-perp-had-dozens-of-recordings-of-discussions-of-trade-secrets",
         "source": "Tom's Hardware",
-        "date": "2026-11-23T16:30:59+00:00"
+        "date": "2026-11-24T16:30:00+00:00"
       },
       {
-        "titre": "GTA 6 : nudistes, klaxons et pélicans : un ornithologue raconte sa traque des 60 espèces d’oiseaux",
-        "lien": "https://www.numerama.com/pop-culture/2382919-gta-6-nudistes-klaxons-et-pelicans-un-ornithologue-raconte-sa-traque-des-60-especes-doiseaux.html",
-        "source": "Numerama",
-        "date": "2026-11-23T16:30:00+00:00"
-      },
-      {
-        "titre": "Save $2,000 on this sick Corsair RTX 5090 prebuilt gaming PC this Black Friday week",
-        "lien": "https://www.tomshardware.com/desktops/gaming-pcs/save-usd2-000-on-this-sick-corsair-rtx-5090-prebuilt-gaming-pc-this-black-friday-week-awesome-rig-includes-9800x3d-power-64gb-of-ram-and-2tb-storage",
+        "titre": "Dell XPS 13 hits all-time low $549 for Black Friday",
+        "lien": "https://www.tomshardware.com/laptops/dell-xps-13-hits-all-time-low-usd549-for-black-friday-dell-continues-to-challenge-macbook-neo",
         "source": "Tom's Hardware",
-        "date": "2026-11-23T16:23:32+00:00"
+        "date": "2026-11-24T16:17:46+00:00"
+      },
+      {
+        "titre": "Tom's Hardware’s CES 2027 Awards: How to enter your product",
+        "lien": "https://www.tomshardware.com/pc-components/toms-hardwares-ces-2027-awards-how-to-enter-your-product",
+        "source": "Tom's Hardware",
+        "date": "2026-11-24T16:03:29+00:00"
+      },
+      {
+        "titre": "Bambu Lab shows off H3C tool changer, first laser at Formnext 2026",
+        "lien": "https://www.tomshardware.com/3d-printing/bambu-lab-shows-off-h3c-tool-changer-first-laser-at-formnext-2026-prusa-research-snapmaker-creality-elegoo-anycubic-and-flashforge-also-on-display",
+        "source": "Tom's Hardware",
+        "date": "2026-11-24T16:00:00+00:00"
+      },
+      {
+        "titre": "Reinstated Nvidia CEO Jensen Huang must still face China congressional and Senate Banking committees",
+        "lien": "https://www.tomshardware.com/tech-industry/policy/reinstated-nvidia-ceo-jensen-huang-must-still-face-china-congressional-and-senate-banking-committees-senators-and-representatives-demand-answers-from-nvidia-ceo-on-national-security-threats-and-export-controls",
+        "source": "Tom's Hardware",
+        "date": "2026-11-24T16:00:00+00:00"
       }
     ]
   }
