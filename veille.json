@@ -1,100 +1,100 @@
 {
-  "maj": "2026-11-24T16:39:41.806974+00:00",
+  "maj": "2026-11-25T16:23:03.528274+00:00",
   "categories": {
     "dev": [
       {
-        "titre": "Twig 4.0.0-beta1 released",
-        "lien": "https://symfony.com/blog/twig-4-0-0-beta1-released?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
-        "source": "Symfony",
-        "date": "2026-11-24T13:34:00+00:00"
+        "titre": "Test du mini PC VZMORE iX9 Max sous Ubuntu Server",
+        "lien": "https://korben.info/test-du-mini-pc-vzmore-ix9-max-sous-ubuntu-server.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+        "source": "Korben",
+        "date": "2026-11-25T14:12:02+00:00"
       },
       {
-        "titre": "Twig 3.31.1 released",
-        "lien": "https://symfony.com/blog/twig-3-31-1-released?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
+        "titre": "CVE-2026-134792 HttpClient Lets the Proxy Header of a Request Choose the Proxy of Outgoing Requests in CLI-SAPI HTTP Workers",
+        "lien": "https://symfony.com/blog/cve-2026-134792-httpclient-lets-the-proxy-header-of-a-request-choose-the-proxy-of-outgoing-requests-in-cli-sapi-http-workers?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
         "source": "Symfony",
-        "date": "2026-11-24T12:34:00+00:00"
+        "date": "2026-11-25T09:40:56+00:00"
       },
       {
-        "titre": "CVE-2026-133773 Unbounded Converter Memoisation in twig/markdown-extra Keyed on Template-Controlled Options",
-        "lien": "https://symfony.com/blog/cve-2026-133773-unbounded-converter-memoisation-in-twig-markdown-extra-keyed-on-template-controlled-options?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
+        "titre": "CVE-2026-134791 Unclosed Comments Make the Lexer of ExpressionLanguage Quadratic, Letting Untrusted Expressions Hold a Process",
+        "lien": "https://symfony.com/blog/cve-2026-134791-unclosed-comments-make-the-lexer-of-expressionlanguage-quadratic-letting-untrusted-expressions-hold-a-process?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
         "source": "Symfony",
-        "date": "2026-11-24T11:54:00+00:00"
+        "date": "2026-11-25T09:40:56+00:00"
       },
       {
-        "titre": "CVE-2026-133772 Sandbox Tag Allow-List Bypass via the Branch of a `guard` Tag That Isn't Selected",
-        "lien": "https://symfony.com/blog/cve-2026-133772-sandbox-tag-allow-list-bypass-via-the-branch-of-a-guard-tag-that-isn-t-selected?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
+        "titre": "CVE-2026-134790 Login Redirects Can Still Reach Another Host When the Session Cookie Domain Is Set: Incomplete Fix for CVE-2017-16652",
+        "lien": "https://symfony.com/blog/cve-2026-134790-login-redirects-can-still-reach-another-host-when-the-session-cookie-domain-is-set-incomplete-fix-for-cve-2017-16652?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
         "source": "Symfony",
-        "date": "2026-11-24T11:54:00+00:00"
+        "date": "2026-11-25T09:40:56+00:00"
       },
       {
-        "titre": "CVE-2026-133771 Missing autoescaping for a variable named like a macro import alias of another scope",
-        "lien": "https://symfony.com/blog/cve-2026-133771-missing-autoescaping-for-a-variable-named-like-a-macro-import-alias-of-another-scope?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
+        "titre": "CVE-2026-133762 Without APP_RUNTIME_MODE, HTTP Workers Running Under the CLI SAPI Return Full Exception Dumps in Production",
+        "lien": "https://symfony.com/blog/cve-2026-133762-without-app-runtime-mode-http-workers-running-under-the-cli-sapi-return-full-exception-dumps-in-production?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
         "source": "Symfony",
-        "date": "2026-11-24T11:54:00+00:00"
+        "date": "2026-11-25T09:40:55+00:00"
       }
     ],
     "cyber": [
       {
-        "titre": "ShinyHunters claims to return after FBI arrests, uses old PGP keys as proof",
-        "lien": "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/",
+        "titre": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
+        "lien": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
         "source": "BleepingComputer",
-        "date": "2026-11-24T16:30:19+00:00"
+        "date": "2026-11-25T16:13:40+00:00"
       },
       {
-        "titre": "European Commission confirms data theft in EU Academy breach",
-        "lien": "https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-theft-in-eu-academy-breach/",
+        "titre": "More Pentests Without More Pentesters: Where AI Safely Helps",
+        "lien": "https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/",
         "source": "BleepingComputer",
-        "date": "2026-11-24T16:22:44+00:00"
+        "date": "2026-11-25T15:00:10+00:00"
       },
       {
-        "titre": "Hackers compromise Check Point Servers in 22 organizations",
-        "lien": "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/",
+        "titre": "InfraTrust warns of exploited supply chain flaws in network appliances",
+        "lien": "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/",
         "source": "BleepingComputer",
-        "date": "2026-11-24T16:15:23+00:00"
+        "date": "2026-11-25T15:00:00+00:00"
       },
       {
-        "titre": "Police disrupt 57 illegal streaming services with 7.3 million visits",
-        "lien": "https://www.bleepingcomputer.com/news/security/police-disrupt-57-illegal-streaming-services-with-73-million-visits/",
-        "source": "BleepingComputer",
-        "date": "2026-11-24T15:10:10+00:00"
+        "titre": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
+        "lien": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
+        "source": "The Hacker News",
+        "date": "2026-11-25T12:48:54+00:00"
       },
       {
-        "titre": "From Vulnerability Noise to Resilience: Rethinking Security in the AI Era",
-        "lien": "https://www.bleepingcomputer.com/news/security/from-vulnerability-noise-to-resilience-rethinking-security-in-the-ai-era/",
-        "source": "BleepingComputer",
-        "date": "2026-11-24T15:01:11+00:00"
+        "titre": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
+        "lien": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html",
+        "source": "The Hacker News",
+        "date": "2026-11-25T12:30:08+00:00"
       }
     ],
     "composants": [
       {
-        "titre": "Saudi OpenAI eavesdropper who bugged company office had hundreds of private recordings",
-        "lien": "https://www.tomshardware.com/tech-industry/artificial-intelligence/saudi-openai-eavesdropper-who-bugged-company-office-had-hundreds-of-private-recordings-was-in-frequent-communication-with-saudi-government-perp-had-dozens-of-recordings-of-discussions-of-trade-secrets",
-        "source": "Tom's Hardware",
-        "date": "2026-11-24T16:30:00+00:00"
+        "titre": "Black Friday : AirPods Pro 3, MacBook Air M5, AirTag 2… les offres Apple qui valent le coup avant Noël",
+        "lien": "https://www.numerama.com/tech/2384687-black-friday-airpods-pro-3-macbook-air-m5-airtag-2-les-offres-apple-qui-valent-le-coup-avant-noel.html",
+        "source": "Numerama",
+        "date": "2026-11-25T16:06:45+00:00"
       },
       {
-        "titre": "Dell XPS 13 hits all-time low $549 for Black Friday",
-        "lien": "https://www.tomshardware.com/laptops/dell-xps-13-hits-all-time-low-usd549-for-black-friday-dell-continues-to-challenge-macbook-neo",
+        "titre": "Best Black Friday Gaming PC Deals 2026",
+        "lien": "https://www.tomshardware.com/desktops/gaming-pcs/best-gaming-pc-deals-prebuilts-2026",
         "source": "Tom's Hardware",
-        "date": "2026-11-24T16:17:46+00:00"
+        "date": "2026-11-25T15:45:59+00:00"
       },
       {
-        "titre": "Tom's Hardware’s CES 2027 Awards: How to enter your product",
-        "lien": "https://www.tomshardware.com/pc-components/toms-hardwares-ces-2027-awards-how-to-enter-your-product",
+        "titre": "7 new Intel Nova Lake-S Core Ultra 4000-series CPUs detailed in new leak",
+        "lien": "https://www.tomshardware.com/pc-components/cpus/7-new-intel-nova-lake-s-core-ultra-4000-series-cpus-detailed-in-new-leak-lineup-includes-5-5ghz-ultra-9-4970k-bfc-ahead-of-the-expected-february-2027-release",
         "source": "Tom's Hardware",
-        "date": "2026-11-24T16:03:29+00:00"
+        "date": "2026-11-25T15:30:00+00:00"
       },
       {
-        "titre": "Bambu Lab shows off H3C tool changer, first laser at Formnext 2026",
-        "lien": "https://www.tomshardware.com/3d-printing/bambu-lab-shows-off-h3c-tool-changer-first-laser-at-formnext-2026-prusa-research-snapmaker-creality-elegoo-anycubic-and-flashforge-also-on-display",
-        "source": "Tom's Hardware",
-        "date": "2026-11-24T16:00:00+00:00"
+        "titre": "Pour Cyberpunk 2, CD Projekt Red ne veut pas nous faire attendre une éternité",
+        "lien": "https://www.numerama.com/pop-culture/2384437-pour-cyberpunk-2-cd-projekt-red-ne-veut-pas-nous-faire-attendre-une-eternite.html",
+        "source": "Numerama",
+        "date": "2026-11-25T15:30:00+00:00"
       },
       {
-        "titre": "Reinstated Nvidia CEO Jensen Huang must still face China congressional and Senate Banking committees",
-        "lien": "https://www.tomshardware.com/tech-industry/policy/reinstated-nvidia-ceo-jensen-huang-must-still-face-china-congressional-and-senate-banking-committees-senators-and-representatives-demand-answers-from-nvidia-ceo-on-national-security-threats-and-export-controls",
-        "source": "Tom's Hardware",
-        "date": "2026-11-24T16:00:00+00:00"
+        "titre": "À J-2 du Black Friday, quelles sont les meilleures offres d’Amazon, Fnac et de Boulanger ?",
+        "lien": "https://www.numerama.com/tech/2382555-black-friday-2026-les-meilleures-offres-en-direct-ce-mercredi-25-novembre.html",
+        "source": "Numerama",
+        "date": "2026-11-25T15:23:17+00:00"
       }
     ]
   }
