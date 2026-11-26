@@ -1,7 +1,25 @@
 {
-  "maj": "2026-11-25T16:23:03.528274+00:00",
+  "maj": "2026-11-26T15:56:59.723043+00:00",
   "categories": {
     "dev": [
+      {
+        "titre": "GB Museum - Une cartouche Game Boy qui n'est pas jouable",
+        "lien": "https://korben.info/game-boy-musee-cartouche.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+        "source": "Korben",
+        "date": "2026-11-26T12:26:15+00:00"
+      },
+      {
+        "titre": "New in Symfony 8.2: Messenger improvements",
+        "lien": "https://symfony.com/blog/new-in-symfony-8-2-messenger-improvements?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
+        "source": "Symfony",
+        "date": "2026-11-26T08:11:00+00:00"
+      },
+      {
+        "titre": "New in Symfony 8.2: Profiler Improvements",
+        "lien": "https://symfony.com/blog/new-in-symfony-8-2-profiler-improvements?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
+        "source": "Symfony",
+        "date": "2026-11-25T16:12:00+00:00"
+      },
       {
         "titre": "Test du mini PC VZMORE iX9 Max sous Ubuntu Server",
         "lien": "https://korben.info/test-du-mini-pc-vzmore-ix9-max-sous-ubuntu-server.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
@@ -13,88 +31,70 @@
         "lien": "https://symfony.com/blog/cve-2026-134792-httpclient-lets-the-proxy-header-of-a-request-choose-the-proxy-of-outgoing-requests-in-cli-sapi-http-workers?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
         "source": "Symfony",
         "date": "2026-11-25T09:40:56+00:00"
-      },
-      {
-        "titre": "CVE-2026-134791 Unclosed Comments Make the Lexer of ExpressionLanguage Quadratic, Letting Untrusted Expressions Hold a Process",
-        "lien": "https://symfony.com/blog/cve-2026-134791-unclosed-comments-make-the-lexer-of-expressionlanguage-quadratic-letting-untrusted-expressions-hold-a-process?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
-        "source": "Symfony",
-        "date": "2026-11-25T09:40:56+00:00"
-      },
-      {
-        "titre": "CVE-2026-134790 Login Redirects Can Still Reach Another Host When the Session Cookie Domain Is Set: Incomplete Fix for CVE-2017-16652",
-        "lien": "https://symfony.com/blog/cve-2026-134790-login-redirects-can-still-reach-another-host-when-the-session-cookie-domain-is-set-incomplete-fix-for-cve-2017-16652?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
-        "source": "Symfony",
-        "date": "2026-11-25T09:40:56+00:00"
-      },
-      {
-        "titre": "CVE-2026-133762 Without APP_RUNTIME_MODE, HTTP Workers Running Under the CLI SAPI Return Full Exception Dumps in Production",
-        "lien": "https://symfony.com/blog/cve-2026-133762-without-app-runtime-mode-http-workers-running-under-the-cli-sapi-return-full-exception-dumps-in-production?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
-        "source": "Symfony",
-        "date": "2026-11-25T09:40:55+00:00"
       }
     ],
     "cyber": [
       {
-        "titre": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
-        "lien": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
+        "titre": "Remus malware steals Gmail messages via fake Google Sheets extension",
+        "lien": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
         "source": "BleepingComputer",
-        "date": "2026-11-25T16:13:40+00:00"
+        "date": "2026-11-26T15:23:28+00:00"
       },
       {
-        "titre": "More Pentests Without More Pentesters: Where AI Safely Helps",
-        "lien": "https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/",
-        "source": "BleepingComputer",
-        "date": "2026-11-25T15:00:10+00:00"
-      },
-      {
-        "titre": "InfraTrust warns of exploited supply chain flaws in network appliances",
-        "lien": "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/",
-        "source": "BleepingComputer",
-        "date": "2026-11-25T15:00:00+00:00"
-      },
-      {
-        "titre": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
-        "lien": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
+        "titre": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
+        "lien": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
         "source": "The Hacker News",
-        "date": "2026-11-25T12:48:54+00:00"
+        "date": "2026-11-26T15:13:41+00:00"
       },
       {
-        "titre": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
-        "lien": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html",
+        "titre": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
+        "lien": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
+        "source": "BleepingComputer",
+        "date": "2026-11-26T11:50:17+00:00"
+      },
+      {
+        "titre": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
+        "lien": "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html",
         "source": "The Hacker News",
-        "date": "2026-11-25T12:30:08+00:00"
+        "date": "2026-11-26T10:57:55+00:00"
+      },
+      {
+        "titre": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+        "lien": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+        "source": "The Hacker News",
+        "date": "2026-11-26T10:57:25+00:00"
       }
     ],
     "composants": [
       {
-        "titre": "Black Friday : AirPods Pro 3, MacBook Air M5, AirTag 2… les offres Apple qui valent le coup avant Noël",
-        "lien": "https://www.numerama.com/tech/2384687-black-friday-airpods-pro-3-macbook-air-m5-airtag-2-les-offres-apple-qui-valent-le-coup-avant-noel.html",
-        "source": "Numerama",
-        "date": "2026-11-25T16:06:45+00:00"
-      },
-      {
-        "titre": "Best Black Friday Gaming PC Deals 2026",
-        "lien": "https://www.tomshardware.com/desktops/gaming-pcs/best-gaming-pc-deals-prebuilts-2026",
+        "titre": "Save 21% on this ultra-fast 2TB SanDisk Optimus GX Pro 8100 SSD, now just 17.5 cents per GB",
+        "lien": "https://www.tomshardware.com/pc-components/ssds/save-21-percent-on-this-ultra-fast-2tb-sandisk-optimus-gx-pro-8100-ssd-now-just-17-5-cents-per-gb-rebranded-sn8100-offers-gen-5-speeds-of-up-to-14-900-mb-s-at-a-record-low-price",
         "source": "Tom's Hardware",
-        "date": "2026-11-25T15:45:59+00:00"
+        "date": "2026-11-26T15:52:52+00:00"
       },
       {
-        "titre": "7 new Intel Nova Lake-S Core Ultra 4000-series CPUs detailed in new leak",
-        "lien": "https://www.tomshardware.com/pc-components/cpus/7-new-intel-nova-lake-s-core-ultra-4000-series-cpus-detailed-in-new-leak-lineup-includes-5-5ghz-ultra-9-4970k-bfc-ahead-of-the-expected-february-2027-release",
+        "titre": "GTA 6 : toutes les astuces de gameplay que le jeu ne vous explique pas",
+        "lien": "https://www.numerama.com/pop-culture/2385417-gta-6-toutes-les-astuces-de-gameplay-que-le-jeu-ne-vous-explique-pas.html",
+        "source": "Numerama",
+        "date": "2026-11-26T15:48:24+00:00"
+      },
+      {
+        "titre": "15 tech gadgets that improved my tech life are on sale for less than $50  — Black Friday pricing means some are even under $25",
+        "lien": "https://www.tomshardware.com/gift-guides-seasonal-sales/15-tech-gadgets-that-improved-my-tech-life-are-on-sale-for-less-than-usd50-black-friday-pricing-means-some-are-even-under-usd25",
         "source": "Tom's Hardware",
-        "date": "2026-11-25T15:30:00+00:00"
+        "date": "2026-11-26T15:45:16+00:00"
       },
       {
-        "titre": "Pour Cyberpunk 2, CD Projekt Red ne veut pas nous faire attendre une éternité",
-        "lien": "https://www.numerama.com/pop-culture/2384437-pour-cyberpunk-2-cd-projekt-red-ne-veut-pas-nous-faire-attendre-une-eternite.html",
+        "titre": "FC 27 ressuscite un commentateur de foot décédé grâce à l’IA : sa voix est de retour",
+        "lien": "https://www.numerama.com/pop-culture/2385441-fc-27-ressuscite-un-commentateur-de-foot-decede-grace-a-lia-sa-voix-est-de-retour.html",
         "source": "Numerama",
-        "date": "2026-11-25T15:30:00+00:00"
+        "date": "2026-11-26T15:23:47+00:00"
       },
       {
-        "titre": "À J-2 du Black Friday, quelles sont les meilleures offres d’Amazon, Fnac et de Boulanger ?",
-        "lien": "https://www.numerama.com/tech/2382555-black-friday-2026-les-meilleures-offres-en-direct-ce-mercredi-25-novembre.html",
+        "titre": "Avengers Doomsday : pourquoi la communication de Marvel tourne au fiasco à quelques semaines de la sortie",
+        "lien": "https://www.numerama.com/pop-culture/2385567-avengers-doomsday-pourquoi-la-communication-de-marvel-tourne-au-fiasco-a-quelques-semaines-de-la-sortie.html",
         "source": "Numerama",
-        "date": "2026-11-25T15:23:17+00:00"
+        "date": "2026-11-26T15:16:15+00:00"
       }
     ]
   }
