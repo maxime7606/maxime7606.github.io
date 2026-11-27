@@ -1,100 +1,100 @@
 {
-  "maj": "2026-11-26T15:56:59.723043+00:00",
+  "maj": "2026-11-27T15:45:26.538327+00:00",
   "categories": {
     "dev": [
       {
-        "titre": "GB Museum - Une cartouche Game Boy qui n'est pas jouable",
-        "lien": "https://korben.info/game-boy-musee-cartouche.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+        "titre": "Symfony 7.4.25 released",
+        "lien": "https://symfony.com/blog/symfony-7-4-25-released?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
+        "source": "Symfony",
+        "date": "2026-11-27T14:44:39+00:00"
+      },
+      {
+        "titre": "Symfony 6.4.52 released",
+        "lien": "https://symfony.com/blog/symfony-6-4-52-released?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
+        "source": "Symfony",
+        "date": "2026-11-27T14:39:58+00:00"
+      },
+      {
+        "titre": "Symfony 5.4.58 released",
+        "lien": "https://symfony.com/blog/symfony-5-4-58-released?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
+        "source": "Symfony",
+        "date": "2026-11-27T14:37:36+00:00"
+      },
+      {
+        "titre": "Mini-Kit - Pour faire un bilan de santé de votre Windows",
+        "lien": "https://korben.info/mini-kit-diagnostic-rapide-pc-windows.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
         "source": "Korben",
-        "date": "2026-11-26T12:26:15+00:00"
+        "date": "2026-11-27T13:49:54+00:00"
       },
       {
-        "titre": "New in Symfony 8.2: Messenger improvements",
-        "lien": "https://symfony.com/blog/new-in-symfony-8-2-messenger-improvements?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
-        "source": "Symfony",
-        "date": "2026-11-26T08:11:00+00:00"
-      },
-      {
-        "titre": "New in Symfony 8.2: Profiler Improvements",
-        "lien": "https://symfony.com/blog/new-in-symfony-8-2-profiler-improvements?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
-        "source": "Symfony",
-        "date": "2026-11-25T16:12:00+00:00"
-      },
-      {
-        "titre": "Test du mini PC VZMORE iX9 Max sous Ubuntu Server",
-        "lien": "https://korben.info/test-du-mini-pc-vzmore-ix9-max-sous-ubuntu-server.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+        "titre": "Obsidian Skills - Laissez votre agent IA ranger vos notes",
+        "lien": "https://korben.info/obsidian-skills-agents-ia.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
         "source": "Korben",
-        "date": "2026-11-25T14:12:02+00:00"
-      },
-      {
-        "titre": "CVE-2026-134792 HttpClient Lets the Proxy Header of a Request Choose the Proxy of Outgoing Requests in CLI-SAPI HTTP Workers",
-        "lien": "https://symfony.com/blog/cve-2026-134792-httpclient-lets-the-proxy-header-of-a-request-choose-the-proxy-of-outgoing-requests-in-cli-sapi-http-workers?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
-        "source": "Symfony",
-        "date": "2026-11-25T09:40:56+00:00"
+        "date": "2026-11-27T12:45:15+00:00"
       }
     ],
     "cyber": [
       {
-        "titre": "Remus malware steals Gmail messages via fake Google Sheets extension",
-        "lien": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
+        "titre": "US Air Force cloud platform reportedly hacked in latest federal breach",
+        "lien": "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/",
         "source": "BleepingComputer",
-        "date": "2026-11-26T15:23:28+00:00"
+        "date": "2026-11-27T15:09:40+00:00"
       },
       {
-        "titre": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
-        "lien": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
-        "source": "The Hacker News",
-        "date": "2026-11-26T15:13:41+00:00"
-      },
-      {
-        "titre": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
-        "lien": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
+        "titre": "Your Firewall Isn't Enough: The Hidden Risk of Unmanaged VMs",
+        "lien": "https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/",
         "source": "BleepingComputer",
-        "date": "2026-11-26T11:50:17+00:00"
+        "date": "2026-11-27T15:00:10+00:00"
       },
       {
-        "titre": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
-        "lien": "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html",
-        "source": "The Hacker News",
-        "date": "2026-11-26T10:57:55+00:00"
+        "titre": "Malwarebytes Antivirus: Get 50% off during Black Friday 2026",
+        "lien": "https://www.bleepingcomputer.com/news/security/malwarebytes-antivirus-get-50-percent-off-during-black-friday-2026/",
+        "source": "BleepingComputer",
+        "date": "2026-11-27T14:22:06+00:00"
       },
       {
-        "titre": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
-        "lien": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+        "titre": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
+        "lien": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html",
         "source": "The Hacker News",
-        "date": "2026-11-26T10:57:25+00:00"
+        "date": "2026-11-27T11:49:34+00:00"
+      },
+      {
+        "titre": "Microsoft removes WSUS server role in Windows Server 2028",
+        "lien": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/",
+        "source": "BleepingComputer",
+        "date": "2026-11-27T11:18:36+00:00"
       }
     ],
     "composants": [
       {
-        "titre": "Save 21% on this ultra-fast 2TB SanDisk Optimus GX Pro 8100 SSD, now just 17.5 cents per GB",
-        "lien": "https://www.tomshardware.com/pc-components/ssds/save-21-percent-on-this-ultra-fast-2tb-sandisk-optimus-gx-pro-8100-ssd-now-just-17-5-cents-per-gb-rebranded-sn8100-offers-gen-5-speeds-of-up-to-14-900-mb-s-at-a-record-low-price",
+        "titre": "Un trou de la couche d’ozone record et pourtant la situation n’est pas si grave : comment est-ce possible ?",
+        "lien": "https://www.numerama.com/sciences/2386087-un-trou-de-la-couche-dozone-record-et-pourtant-la-situation-nest-pas-si-grave-comment-est-ce-possible.html",
+        "source": "Numerama",
+        "date": "2026-11-27T15:31:24+00:00"
+      },
+      {
+        "titre": "Le Mordor, là où siège le volcan Orodruin : d’où vient ce nom dans Les Anneaux de pouvoir",
+        "lien": "https://www.numerama.com/pop-culture/1137948-le-mordor-la-ou-siege-le-volcan-orodruin-dou-vient-ce-nom-dans-les-anneaux-de-pouvoir.html",
+        "source": "Numerama",
+        "date": "2026-11-27T15:27:41+00:00"
+      },
+      {
+        "titre": "Upgrade to Wi-Fi 7 with these stellar savings",
+        "lien": "https://www.tomshardware.com/networking/routers/upgrade-to-wi-fi-7-with-these-stellar-deals-tp-link-and-netgear-wi-fi-7-routers-get-big-black-friday-discounts",
         "source": "Tom's Hardware",
-        "date": "2026-11-26T15:52:52+00:00"
+        "date": "2026-11-27T15:15:08+00:00"
       },
       {
-        "titre": "GTA 6 : toutes les astuces de gameplay que le jeu ne vous explique pas",
-        "lien": "https://www.numerama.com/pop-culture/2385417-gta-6-toutes-les-astuces-de-gameplay-que-le-jeu-ne-vous-explique-pas.html",
-        "source": "Numerama",
-        "date": "2026-11-26T15:48:24+00:00"
-      },
-      {
-        "titre": "15 tech gadgets that improved my tech life are on sale for less than $50  — Black Friday pricing means some are even under $25",
-        "lien": "https://www.tomshardware.com/gift-guides-seasonal-sales/15-tech-gadgets-that-improved-my-tech-life-are-on-sale-for-less-than-usd50-black-friday-pricing-means-some-are-even-under-usd25",
+        "titre": "Best Black Friday Gaming laptop deals live",
+        "lien": "https://www.tomshardware.com/live/news/best-black-friday-gaming-laptop-deals-live",
         "source": "Tom's Hardware",
-        "date": "2026-11-26T15:45:16+00:00"
+        "date": "2026-11-27T15:03:31+00:00"
       },
       {
-        "titre": "FC 27 ressuscite un commentateur de foot décédé grâce à l’IA : sa voix est de retour",
-        "lien": "https://www.numerama.com/pop-culture/2385441-fc-27-ressuscite-un-commentateur-de-foot-decede-grace-a-lia-sa-voix-est-de-retour.html",
-        "source": "Numerama",
-        "date": "2026-11-26T15:23:47+00:00"
-      },
-      {
-        "titre": "Avengers Doomsday : pourquoi la communication de Marvel tourne au fiasco à quelques semaines de la sortie",
-        "lien": "https://www.numerama.com/pop-culture/2385567-avengers-doomsday-pourquoi-la-communication-de-marvel-tourne-au-fiasco-a-quelques-semaines-de-la-sortie.html",
-        "source": "Numerama",
-        "date": "2026-11-26T15:16:15+00:00"
+        "titre": "Beijing’s AI ambitions are under threat as models may fall behind by up to nine months versus competitors — Chinese AI labs are under heavy fire from export controls, maturing chip stacks and a distillation crackdown",
+        "lien": "https://www.tomshardware.com/tech-industry/artificial-intelligence/beijings-ai-ambitions-are-under-threat-as-models-may-fall-behind-by-up-to-nine-months-versus-competitors-chinese-ai-labs-are-under-heavy-fire-from-export-controls-maturing-chip-stacks-and-a-distillation-crackdown",
+        "source": "Tom's Hardware",
+        "date": "2026-11-27T15:00:00+00:00"
       }
     ]
   }
