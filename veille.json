@@ -1,100 +1,100 @@
 {
-  "maj": "2026-11-27T15:45:26.538327+00:00",
+  "maj": "2026-11-28T14:42:03.196728+00:00",
   "categories": {
     "dev": [
       {
-        "titre": "Symfony 7.4.25 released",
-        "lien": "https://symfony.com/blog/symfony-7-4-25-released?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
+        "titre": "New in Symfony 8.2: Serializer Improvements",
+        "lien": "https://symfony.com/blog/new-in-symfony-8-2-serializer-improvements?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
         "source": "Symfony",
-        "date": "2026-11-27T14:44:39+00:00"
+        "date": "2026-11-28T12:28:00+00:00"
       },
       {
-        "titre": "Symfony 6.4.52 released",
-        "lien": "https://symfony.com/blog/symfony-6-4-52-released?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
+        "titre": "Symfony 8.2.0 released",
+        "lien": "https://symfony.com/blog/symfony-8-2-0-released?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
         "source": "Symfony",
-        "date": "2026-11-27T14:39:58+00:00"
+        "date": "2026-11-28T12:15:30+00:00"
       },
       {
-        "titre": "Symfony 5.4.58 released",
-        "lien": "https://symfony.com/blog/symfony-5-4-58-released?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
+        "titre": "Symfony UX 4.0 Could Leave Stimulus and Hotwire",
+        "lien": "https://symfony.com/blog/symfony-ux-4-0-could-leave-stimulus-and-hotwire?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
         "source": "Symfony",
-        "date": "2026-11-27T14:37:36+00:00"
+        "date": "2026-11-28T09:08:00+00:00"
       },
       {
-        "titre": "Mini-Kit - Pour faire un bilan de santé de votre Windows",
-        "lien": "https://korben.info/mini-kit-diagnostic-rapide-pc-windows.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
+        "titre": "New in Symfony 8.2: Doctrine improvements",
+        "lien": "https://symfony.com/blog/new-in-symfony-8-2-doctrine-improvements?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
+        "source": "Symfony",
+        "date": "2026-11-28T08:12:00+00:00"
+      },
+      {
+        "titre": "usb-rea - Pour faire du reverse engineering d'appareils USB en quelques clics",
+        "lien": "https://korben.info/usb-rea-pilote-linux-gadget-usb.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
         "source": "Korben",
-        "date": "2026-11-27T13:49:54+00:00"
-      },
-      {
-        "titre": "Obsidian Skills - Laissez votre agent IA ranger vos notes",
-        "lien": "https://korben.info/obsidian-skills-agents-ia.html?utm_source=rss&utm_medium=feed&utm_campaign=flux-principal",
-        "source": "Korben",
-        "date": "2026-11-27T12:45:15+00:00"
+        "date": "2026-11-28T07:59:21+00:00"
       }
     ],
     "cyber": [
       {
-        "titre": "US Air Force cloud platform reportedly hacked in latest federal breach",
-        "lien": "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/",
-        "source": "BleepingComputer",
-        "date": "2026-11-27T15:09:40+00:00"
-      },
-      {
-        "titre": "Your Firewall Isn't Enough: The Hidden Risk of Unmanaged VMs",
-        "lien": "https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/",
-        "source": "BleepingComputer",
-        "date": "2026-11-27T15:00:10+00:00"
-      },
-      {
-        "titre": "Malwarebytes Antivirus: Get 50% off during Black Friday 2026",
-        "lien": "https://www.bleepingcomputer.com/news/security/malwarebytes-antivirus-get-50-percent-off-during-black-friday-2026/",
-        "source": "BleepingComputer",
-        "date": "2026-11-27T14:22:06+00:00"
-      },
-      {
-        "titre": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
-        "lien": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html",
+        "titre": "pCloud Password Manager Hit by Cyber Attack Involving Email Address Exposure and Login Attempts",
+        "lien": "https://thehackernews.com/2026/11/pcloud-password-manager-hit-by-cyber.html",
         "source": "The Hacker News",
-        "date": "2026-11-27T11:49:34+00:00"
+        "date": "2026-11-28T08:08:11+00:00"
       },
       {
-        "titre": "Microsoft removes WSUS server role in Windows Server 2028",
-        "lien": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/",
+        "titre": "pCloud confirms password manager hack after suspicious login alerts",
+        "lien": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
         "source": "BleepingComputer",
-        "date": "2026-11-27T11:18:36+00:00"
+        "date": "2026-11-27T19:26:04+00:00"
+      },
+      {
+        "titre": "New Boston Scientific data breach exposes personal, medical info",
+        "lien": "https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/",
+        "source": "BleepingComputer",
+        "date": "2026-11-27T18:57:42+00:00"
+      },
+      {
+        "titre": "Unpatched Cacti zero-day with public PoC gives remote code execution",
+        "lien": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
+        "source": "BleepingComputer",
+        "date": "2026-11-27T17:06:13+00:00"
+      },
+      {
+        "titre": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
+        "lien": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html",
+        "source": "The Hacker News",
+        "date": "2026-11-27T16:36:11+00:00"
       }
     ],
     "composants": [
       {
-        "titre": "Un trou de la couche d’ozone record et pourtant la situation n’est pas si grave : comment est-ce possible ?",
-        "lien": "https://www.numerama.com/sciences/2386087-un-trou-de-la-couche-dozone-record-et-pourtant-la-situation-nest-pas-si-grave-comment-est-ce-possible.html",
+        "titre": "$120 wearable LED pin acts as a 'watermark for humans' to fight deepfakes",
+        "lien": "https://www.tomshardware.com/peripherals/wearable-tech/usd120-wearable-led-pin-acts-as-a-watermark-for-humans-to-fight-deepfakes-esp32-s3-powered-protector-flashes-secret-time-synced-light-codes-every-second",
+        "source": "Tom's Hardware",
+        "date": "2026-11-28T14:30:00+00:00"
+      },
+      {
+        "titre": "Netflix : les meilleures séries comiques de la plateforme pour vous redonner le sourire",
+        "lien": "https://www.numerama.com/pop-culture/2383695-netflix-les-meilleures-series-comiques-de-la-plateforme-pour-vous-redonner-le-sourire.html",
         "source": "Numerama",
-        "date": "2026-11-27T15:31:24+00:00"
+        "date": "2026-11-28T14:20:00+00:00"
       },
       {
-        "titre": "Le Mordor, là où siège le volcan Orodruin : d’où vient ce nom dans Les Anneaux de pouvoir",
-        "lien": "https://www.numerama.com/pop-culture/1137948-le-mordor-la-ou-siege-le-volcan-orodruin-dou-vient-ce-nom-dans-les-anneaux-de-pouvoir.html",
-        "source": "Numerama",
-        "date": "2026-11-27T15:27:41+00:00"
-      },
-      {
-        "titre": "Upgrade to Wi-Fi 7 with these stellar savings",
-        "lien": "https://www.tomshardware.com/networking/routers/upgrade-to-wi-fi-7-with-these-stellar-deals-tp-link-and-netgear-wi-fi-7-routers-get-big-black-friday-discounts",
+        "titre": "We built the best all-around DIY PC we could from Cyber Monday deals, and it's pretty sweet",
+        "lien": "https://www.tomshardware.com/pc-components/we-built-the-best-all-around-diy-pc-we-could-from-cyber-monday-deals-and-its-pretty-sweet-get-core-ultra-7-270k-plus-cpu-power-and-rx-9070-xt-gaming-prowess-for-less-than-usd2500-this-black-friday-weekend",
         "source": "Tom's Hardware",
-        "date": "2026-11-27T15:15:08+00:00"
+        "date": "2026-11-28T14:09:23+00:00"
       },
       {
-        "titre": "Best Black Friday Gaming laptop deals live",
-        "lien": "https://www.tomshardware.com/live/news/best-black-friday-gaming-laptop-deals-live",
+        "titre": "Caveman repurposes old mining rig for local AI, pools 72GB VRAM across mismatched GPUs",
+        "lien": "https://www.tomshardware.com/tech-industry/artificial-intelligence/caveman-repurposes-old-mining-rig-for-local-ai-pools-72gb-vram-across-mismatched-gpus-pcie-x1-slot-hits-just-10-percent-load-while-running-a-120b-model",
         "source": "Tom's Hardware",
-        "date": "2026-11-27T15:03:31+00:00"
+        "date": "2026-11-28T14:00:00+00:00"
       },
       {
-        "titre": "Beijing’s AI ambitions are under threat as models may fall behind by up to nine months versus competitors — Chinese AI labs are under heavy fire from export controls, maturing chip stacks and a distillation crackdown",
-        "lien": "https://www.tomshardware.com/tech-industry/artificial-intelligence/beijings-ai-ambitions-are-under-threat-as-models-may-fall-behind-by-up-to-nine-months-versus-competitors-chinese-ai-labs-are-under-heavy-fire-from-export-controls-maturing-chip-stacks-and-a-distillation-crackdown",
+        "titre": "Save $400 on this RTX 5070 Ti gaming laptop",
+        "lien": "https://www.tomshardware.com/pc-components/save-usd400-on-this-rtx-5070-ti-gaming-laptop-msi-vector-16-hx-ai-with-intel-core-ultra-7-and-16gb-ddr5-ram-drops-to-usd1-599",
         "source": "Tom's Hardware",
-        "date": "2026-11-27T15:00:00+00:00"
+        "date": "2026-11-28T13:39:27+00:00"
       }
     ]
   }
